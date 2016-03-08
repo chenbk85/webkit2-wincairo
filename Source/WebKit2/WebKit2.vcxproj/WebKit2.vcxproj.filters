@@ -1,0 +1,3501 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Shared">
+      <UniqueIdentifier>{41961330-92fe-4f35-937b-84def01698e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shared\API">
+      <UniqueIdentifier>{08256268-fbc4-4b4f-8fac-7d1bab116579}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shared\API\cairo">
+      <UniqueIdentifier>{e46f3efe-66b3-460e-9dc6-0fc2c7f86806}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shared\CoreIPCSupport">
+      <UniqueIdentifier>{9e2aae22-9c24-4989-b457-4fbfdcfe5863}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shared\cairo">
+      <UniqueIdentifier>{49418e42-165f-4e3a-bba1-d8cbea481914}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shared\Plugins">
+      <UniqueIdentifier>{3181839a-1465-4091-8f63-87f490202daa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shared\Plugins\Netscape">
+      <UniqueIdentifier>{5e7c9d56-c56d-4002-8a98-a74b3c452cca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WebProcess">
+      <UniqueIdentifier>{577fe224-435b-4466-88bd-c93ab65a7fe4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WebProcess\ApplicationCache">
+      <UniqueIdentifier>{ee2ec3be-4230-446c-ab03-37bcfa854efa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WebProcess\Geolocation">
+      <UniqueIdentifier>{ebc9b65f-9101-4b30-a1f8-dd2485355685}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WebProcess\IconDatabase">
+      <UniqueIdentifier>{3347a9ef-bf2a-4dc7-bcfb-3963d3d5e7c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WebProcess\MediaCache">
+      <UniqueIdentifier>{f4aa4651-7bdb-4f75-91df-99130dbb8b9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WebProcess\ResourceCache">
+      <UniqueIdentifier>{340c5b51-65a1-48e0-a7e8-ee7d2d10ff0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WebProcess\Cookies">
+      <UniqueIdentifier>{5fea4eb9-b8c5-47ff-8534-758cc18b4754}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WebProcess\Cookies\curl">
+      <UniqueIdentifier>{f2ac0d01-7fb2-493e-9ac4-36a74308a63b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WebProcess\WebCoreSupport">
+      <UniqueIdentifier>{113c2095-3dda-4b17-a217-527ddbc6315f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WebProcess\WebPage">
+      <UniqueIdentifier>{9a7bdbb0-7edb-411b-91a7-4e7d629bde2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WebProcess\InjectedBundle">
+      <UniqueIdentifier>{43b25594-9ba3-4e8a-b80e-df57c2166b77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WebProcess\InjectedBundle\API">
+      <UniqueIdentifier>{b2369bd5-78f0-4745-ad74-092556296aaf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WebProcess\InjectedBundle\API\c">
+      <UniqueIdentifier>{51a919aa-5244-4b58-a690-c66a3cdfbf2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WebProcess\InjectedBundle\DOM">
+      <UniqueIdentifier>{68893f27-a73f-429e-9156-67e7d60d2dd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WebProcess\Plugins">
+      <UniqueIdentifier>{7824bc49-ae83-41dd-bbc2-82d36ba5d6ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WebProcess\Plugins\Netscape">
+      <UniqueIdentifier>{5c4f253b-588d-4a18-b53f-db95f3e7c09e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WebProcess\FullScreen">
+      <UniqueIdentifier>{f2640e29-1492-42c8-926a-0b4c8fc4d966}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WebProcess\Notifications %28User%29">
+      <UniqueIdentifier>{7ecdaf9b-0ad3-4d9e-a694-4e7052369037}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UIProcess">
+      <UniqueIdentifier>{c8f3e4c1-1bc3-4375-adfb-8f208e104a27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UIProcess\API">
+      <UniqueIdentifier>{3e06e298-dd6f-4722-8fd4-a9e9d19d8124}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UIProcess\API\C">
+      <UniqueIdentifier>{1ffc0c35-686b-4d3e-9cec-b88beac87e75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UIProcess\API\cpp">
+      <UniqueIdentifier>{459699b7-cf9e-4b38-9fe5-f1097f37c5ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UIProcess\Authentication">
+      <UniqueIdentifier>{c4bebaf5-47c5-48a0-be7f-4f25ff0166df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UIProcess\Downloads">
+      <UniqueIdentifier>{e0e2281d-1f74-42bb-bb48-dbee62e47c58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UIProcess\Launcher">
+      <UniqueIdentifier>{e7a16098-7f20-498c-828d-aa09781ef0ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UIProcess\Plugins">
+      <UniqueIdentifier>{91c296fc-3f1d-4e1a-9346-5fc1cb4173b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UIProcess\Notifications %28User%29">
+      <UniqueIdentifier>{fe7553f1-83fd-4bf0-b854-c160c246aa92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platform">
+      <UniqueIdentifier>{6fec5085-ff0f-426e-9986-d2f7ece6c223}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Derived Sources">
+      <UniqueIdentifier>{75b7bc33-14ee-4f4d-86ac-05f97b277361}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UIProcess\Storage">
+      <UniqueIdentifier>{11c93fa9-9262-4c1a-9bc5-7d93acecc60a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WebProcess\Storage">
+      <UniqueIdentifier>{d28ed26a-e2d1-4fe5-a6f4-757e4c99b311}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shared\Network">
+      <UniqueIdentifier>{c341bbba-2c79-4793-b603-6d8ac4267579}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shared\Network\CustomProtocols">
+      <UniqueIdentifier>{5d64e6e2-3b39-489f-a22b-b306886baae6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shared\Downloads">
+      <UniqueIdentifier>{881b2258-03d2-42ae-ac9e-d81e41d8d8b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shared\Authentication">
+      <UniqueIdentifier>{7bd85467-c16b-4ce9-894a-b17e725fa7e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WebProcess\Databases">
+      <UniqueIdentifier>{e43b9792-ef5e-41a2-8c71-8d9567768727}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WebProcess\Databases\IndexedDB">
+      <UniqueIdentifier>{4fc17449-9467-4366-9cc6-c8360e1f16cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WebProcess\OriginData">
+      <UniqueIdentifier>{d8a60d4a-00b5-4bbe-bc2c-c41b24037254}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shared\Databases">
+      <UniqueIdentifier>{03381251-eb66-4253-82ed-4ed849de00b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shared\Databases\IndexedDB">
+      <UniqueIdentifier>{c88b8bb8-5509-488e-8fcc-f81e2d1d563a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PluginProcess">
+      <UniqueIdentifier>{743e8e5a-5087-4958-b8bf-b66db2b02770}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UIProcess\cairo">
+      <UniqueIdentifier>{8efc790f-04ba-4672-b3a7-3c2b8078df6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WebProcess\WebPage\CoordinatedGraphics">
+      <UniqueIdentifier>{001faf4f-7fbc-4a3e-9d56-f0a5aad02f08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UIProcess\CoordinatedGraphics">
+      <UniqueIdentifier>{d4960db4-8837-4280-8f16-ee69792290f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shared\CoordinatedGraphics">
+      <UniqueIdentifier>{81cbf210-54dd-409b-b7a4-59b362f6e4e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UIProcess\API\C\CoordinatedGraphics">
+      <UniqueIdentifier>{d01f8f53-8508-4b69-8afb-f551c44844d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UIProcess\InspectorServer">
+      <UniqueIdentifier>{e4746175-3c22-4cca-9e0c-4c431c07793e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NetworkProcess">
+      <UniqueIdentifier>{9aa56a20-8153-40e3-bc46-b7d874e5ca28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NetworkProcess\FileAPI">
+      <UniqueIdentifier>{6975b0c4-5204-46b6-bf61-f4b7f395a75f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UIProcess\Network">
+      <UniqueIdentifier>{cbfede02-560d-4bec-8cc9-42be4a6a4c77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WebProcess\Network">
+      <UniqueIdentifier>{e63ad523-6fc2-4f2f-9525-35c235a7d61b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WebProcess\FileAPI">
+      <UniqueIdentifier>{eb580dcd-9a12-450e-b301-09c49ea936c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platform\IPC">
+      <UniqueIdentifier>{7f3cf4ba-e876-4b03-adae-8ab25629353c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UIProcess\API\CoordinatedGraphics">
+      <UniqueIdentifier>{399a3c90-f014-4e8e-b347-7464fa7c59e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WebProcess\Battery">
+      <UniqueIdentifier>{ec12b4da-e5b0-427c-9784-9812049eaed9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shared\curl">
+      <UniqueIdentifier>{a789c381-b361-4d87-9713-cab90a5a7f88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WebProcess\WebCoreSupport\curl">
+      <UniqueIdentifier>{42a2e5e6-6382-46b8-b0ba-dacd3068fa0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platform\IPC\win">
+      <UniqueIdentifier>{a82963a9-147b-4958-baa5-7970fb846516}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UIProcess\Launcher\win">
+      <UniqueIdentifier>{c81f5272-4b71-483d-afd6-75586af007cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platform\win">
+      <UniqueIdentifier>{59b82b90-285c-417e-9bb5-25a80c315bd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UIProcess\win">
+      <UniqueIdentifier>{2dda106f-68a1-4369-afb7-2c910407692b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WebProcess\WebCoreSupport\win">
+      <UniqueIdentifier>{ddfbee1a-0bc1-4739-ac20-f63dbe4cc094}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shared\Downloads\curl">
+      <UniqueIdentifier>{c4a7195c-e3f9-4b6d-8c26-541ce8051723}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WebProcess\InjectedBundle\win">
+      <UniqueIdentifier>{4c863a92-a781-43d8-878d-24f878a88e50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WebProcess\Plugins\Netscape\win">
+      <UniqueIdentifier>{ff673202-7386-4e95-8646-cd4036ec8c53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shared\Plugins\Netscape\win">
+      <UniqueIdentifier>{415c1cd7-556f-4f84-b3b2-ceb28d586ff0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PluginProcess\win">
+      <UniqueIdentifier>{fd57a6eb-f509-4d9b-9a9c-3299ff897e5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WebProcess\WebPage\win">
+      <UniqueIdentifier>{6db30eb4-03a0-4114-94e7-ce095410644e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UIProcess\Plugins\win">
+      <UniqueIdentifier>{ee5c7326-12b6-4d9c-993e-8044feaba610}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WebProcess\win">
+      <UniqueIdentifier>{a283615e-4beb-41c7-8c76-ec4c0e96e4a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="win">
+      <UniqueIdentifier>{fe7df736-c254-49db-8a0d-5348892107e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UIProcess\API\C\win">
+      <UniqueIdentifier>{796002eb-6843-4259-9cb0-f8f29799f387}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shared\API\win">
+      <UniqueIdentifier>{9e321261-4c79-4bf6-8aae-1e796579549d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UIProcess\API\win">
+      <UniqueIdentifier>{91c8b24f-f191-4b55-b70d-9256c44a2a2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shared\win">
+      <UniqueIdentifier>{dc5e9a06-717f-4268-983e-a0a21f001153}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UIProcess\UserContent">
+      <UniqueIdentifier>{1c9b2d27-7595-4287-99ec-53ffc53f3c1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WebProcess\UserContent">
+      <UniqueIdentifier>{a78a5220-bde6-45a7-9f61-5b661430462f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Shared\APIClient.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\APIObject.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\CacheModel.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\ChildProcess.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\CommandLine.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\DictionaryPopupInfo.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\DrawingAreaInfo.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\EditorState.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\FontInfo.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\FontSmoothingLevel.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\ImmutableDictionary.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\LayerTreeContext.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\MutableDictionary.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\NativeWebKeyboardEvent.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\NativeWebMouseEvent.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\NativeWebWheelEvent.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\OriginAndDatabases.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\PlatformPopupMenuData.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\PrintInfo.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\ResourceCachesToClear.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\SameDocumentNavigationType.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\SecurityOriginData.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\SessionState.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\ShareableBitmap.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\StatisticsData.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\TextCheckerState.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\UpdateInfo.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\UserMessageCoders.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\VisitedLinkTable.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\WebBackForwardListItem.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\WebCertificateInfo.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\WebConnection.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\WebConnectionClient.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\WebContextMenuItem.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\WebContextMenuItemData.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\WebCoreArgumentCoders.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\WebEvent.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\WebEventConversion.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\WebFindOptions.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\WebGeolocationPosition.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\WebHitTestResult.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\WebImage.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\WebNavigationDataStore.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\WebOpenPanelParameters.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\WebPageCreationParameters.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\WebPageGroupData.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\WebPopupItem.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\WebPreferencesStore.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\WebProcessCreationParameters.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\WebRenderLayer.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\WebRenderObject.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\WebSecurityOrigin.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\WebSerializedScriptValue.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\WebUserContentURLPattern.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\API\c\WKArray.h">
+      <Filter>Shared\API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\API\c\WKBase.h">
+      <Filter>Shared\API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\API\c\WKCertificateInfo.h">
+      <Filter>Shared\API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\API\c\WKConnectionRef.h">
+      <Filter>Shared\API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\API\c\WKContextMenuItem.h">
+      <Filter>Shared\API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\API\c\WKContextMenuItemTypes.h">
+      <Filter>Shared\API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\API\c\WKData.h">
+      <Filter>Shared\API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\API\c\WKDictionary.h">
+      <Filter>Shared\API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\API\c\WKEvent.h">
+      <Filter>Shared\API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\API\c\WKFindOptions.h">
+      <Filter>Shared\API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\API\c\WKGeometry.h">
+      <Filter>Shared\API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\API\c\WKImage.h">
+      <Filter>Shared\API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\API\c\WKMutableArray.h">
+      <Filter>Shared\API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\API\c\WKMutableDictionary.h">
+      <Filter>Shared\API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\API\c\WKNumber.h">
+      <Filter>Shared\API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\API\c\WKPageLoadTypes.h">
+      <Filter>Shared\API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\API\c\WKRenderLayer.h">
+      <Filter>Shared\API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\API\c\WKRenderObject.h">
+      <Filter>Shared\API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\API\c\WKSecurityOrigin.h">
+      <Filter>Shared\API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\API\c\WKSerializedScriptValue.h">
+      <Filter>Shared\API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\API\c\WKSerializedScriptValuePrivate.h">
+      <Filter>Shared\API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\API\c\WKSharedAPICast.h">
+      <Filter>Shared\API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\API\c\WKString.h">
+      <Filter>Shared\API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\API\c\WKStringPrivate.h">
+      <Filter>Shared\API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\API\c\WKType.h">
+      <Filter>Shared\API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\API\c\WKURL.h">
+      <Filter>Shared\API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\API\c\WKURLRequest.h">
+      <Filter>Shared\API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\API\c\WKURLResponse.h">
+      <Filter>Shared\API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\API\c\WKUserContentURLPattern.h">
+      <Filter>Shared\API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\API\c\cairo\WKImageCairo.h">
+      <Filter>Shared\API\cairo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\CoreIPCSupport\WebContextMessageKinds.h">
+      <Filter>Shared\CoreIPCSupport</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Plugins\PluginModuleInfo.h">
+      <Filter>Shared\Plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Plugins\PluginQuirks.h">
+      <Filter>Shared\Plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Plugins\Netscape\NetscapePluginModule.h">
+      <Filter>Shared\Plugins\Netscape</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WebProcess\WebConnectionToUIProcess.h">
+      <Filter>WebProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WebProcess\WebProcess.h">
+      <Filter>WebProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WebProcess\ApplicationCache\WebApplicationCacheManager.h">
+      <Filter>WebProcess\ApplicationCache</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WebProcess\Geolocation\GeolocationPermissionRequestManager.h">
+      <Filter>WebProcess\Geolocation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WebProcess\Geolocation\WebGeolocationManager.h">
+      <Filter>WebProcess\Geolocation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WebProcess\IconDatabase\WebIconDatabaseProxy.h">
+      <Filter>WebProcess\IconDatabase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WebProcess\MediaCache\WebMediaCacheManager.h">
+      <Filter>WebProcess\MediaCache</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WebProcess\ResourceCache\WebResourceCacheManager.h">
+      <Filter>WebProcess\ResourceCache</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WebProcess\Cookies\WebCookieManager.h">
+      <Filter>WebProcess\Cookies</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WebProcess\WebCoreSupport\WebChromeClient.h">
+      <Filter>WebProcess\WebCoreSupport</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WebProcess\WebCoreSupport\WebColorChooser.h">
+      <Filter>WebProcess\WebCoreSupport</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WebProcess\WebCoreSupport\WebContextMenuClient.h">
+      <Filter>WebProcess\WebCoreSupport</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WebProcess\WebCoreSupport\WebDatabaseManager.h">
+      <Filter>WebProcess\WebCoreSupport</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WebProcess\WebCoreSupport\WebDragClient.h">
+      <Filter>WebProcess\WebCoreSupport</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WebProcess\WebCoreSupport\WebEditorClient.h">
+      <Filter>WebProcess\WebCoreSupport</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WebProcess\WebCoreSupport\WebErrors.h">
+      <Filter>WebProcess\WebCoreSupport</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WebProcess\WebCoreSupport\WebFrameLoaderClient.h">
+      <Filter>WebProcess\WebCoreSupport</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WebProcess\WebCoreSupport\WebGeolocationClient.h">
+      <Filter>WebProcess\WebCoreSupport</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WebProcess\WebCoreSupport\WebInspectorClient.h">
+      <Filter>WebProcess\WebCoreSupport</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WebProcess\WebCoreSupport\WebInspectorFrontendClient.h">
+      <Filter>WebProcess\WebCoreSupport</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WebProcess\WebCoreSupport\WebNotificationClient.h">
+      <Filter>WebProcess\WebCoreSupport</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WebProcess\WebCoreSupport\WebPlatformStrategies.h">
+      <Filter>WebProcess\WebCoreSupport</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WebProcess\WebCoreSupport\WebPopupMenu.h">
+      <Filter>WebProcess\WebCoreSupport</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WebProcess\WebCoreSupport\WebSearchPopupMenu.h">
+      <Filter>WebProcess\WebCoreSupport</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WebProcess\WebPage\DrawingArea.h">
+      <Filter>WebProcess\WebPage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WebProcess\WebPage\EventDispatcher.h">
+      <Filter>WebProcess\WebPage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WebProcess\WebPage\FindController.h">
+      <Filter>WebProcess\WebPage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WebProcess\WebPage\LayerTreeHost.h">
+      <Filter>WebProcess\WebPage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WebProcess\WebPage\PageOverlay.h">
+      <Filter>WebProcess\WebPage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WebProcess\WebPage\WebBackForwardListProxy.h">
+      <Filter>WebProcess\WebPage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WebProcess\WebPage\WebContextMenu.h">
+      <Filter>WebProcess\WebPage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WebProcess\WebPage\WebFrame.h">
+      <Filter>WebProcess\WebPage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WebProcess\WebPage\WebInspector.h">
+      <Filter>WebProcess\WebPage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WebProcess\WebPage\WebOpenPanelResultListener.h">
+      <Filter>WebProcess\WebPage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WebProcess\WebPage\WebPage.h">
+      <Filter>WebProcess\WebPage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WebProcess\WebPage\WebPageGroupProxy.h">
+      <Filter>WebProcess\WebPage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WebProcess\WebPage\WebUndoStep.h">
+      <Filter>WebProcess\WebPage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WebProcess\InjectedBundle\InjectedBundle.h">
+      <Filter>WebProcess\InjectedBundle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WebProcess\InjectedBundle\InjectedBundleBackForwardList.h">
+      <Filter>WebProcess\InjectedBundle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WebProcess\InjectedBundle\InjectedBundleBackForwardListItem.h">
+      <Filter>WebProcess\InjectedBundle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WebProcess\InjectedBundle\InjectedBundleClient.h">
+      <Filter>WebProcess\InjectedBundle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WebProcess\InjectedBundle\InjectedBundleDOMWindowExtension.h">
+      <Filter>WebProcess\InjectedBundle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WebProcess\InjectedBundle\InjectedBundleHitTestResult.h">
+      <Filter>WebProcess\InjectedBundle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WebProcess\InjectedBundle\InjectedBundleNavigationAction.h">
+      <Filter>WebProcess\InjectedBundle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WebProcess\InjectedBundle\InjectedBundlePageContextMenuClient.h">
+      <Filter>WebProcess\InjectedBundle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WebProcess\InjectedBundle\InjectedBundlePageDiagnosticLoggingClient.h">
+      <Filter>WebProcess\InjectedBundle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WebProcess\InjectedBundle\InjectedBundlePageEditorClient.h">
+      <Filter>WebProcess\InjectedBundle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WebProcess\InjectedBundle\InjectedBundlePageFormClient.h">
+      <Filter>WebProcess\InjectedBundle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WebProcess\InjectedBundle\InjectedBundlePageFullScreenClient.h">
+      <Filter>WebProcess\InjectedBundle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WebProcess\InjectedBundle\InjectedBundlePageLoaderClient.h">
+      <Filter>WebProcess\InjectedBundle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WebProcess\InjectedBundle\InjectedBundlePagePolicyClient.h">
+      <Filter>WebProcess\InjectedBundle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WebProcess\InjectedBundle\InjectedBundlePageResourceLoadClient.h">
+      <Filter>WebProcess\InjectedBundle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WebProcess\InjectedBundle\InjectedBundlePageUIClient.h">
+      <Filter>WebProcess\InjectedBundle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WebProcess\InjectedBundle\InjectedBundleScriptWorld.h">
+      <Filter>WebProcess\InjectedBundle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WebProcess\InjectedBundle\InjectedBundleUserMessageCoders.h">
+      <Filter>WebProcess\InjectedBundle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WebProcess\InjectedBundle\API\c\WKBundle.h">
+      <Filter>WebProcess\InjectedBundle\API\c</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WebProcess\InjectedBundle\API\c\WKBundleAPICast.h">
+      <Filter>WebProcess\InjectedBundle\API\c</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WebProcess\InjectedBundle\API\c\WKBundleBackForwardList.h">
+      <Filter>WebProcess\InjectedBundle\API\c</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WebProcess\InjectedBundle\API\c\WKBundleBackForwardListItem.h">
+      <Filter>WebProcess\InjectedBundle\API\c</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WebProcess\InjectedBundle\API\c\WKBundleDOMWindowExtension.h">
+      <Filter>WebProcess\InjectedBundle\API\c</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WebProcess\InjectedBundle\API\c\WKBundleFrame.h">
+      <Filter>WebProcess\InjectedBundle\API\c</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WebProcess\InjectedBundle\API\c\WKBundleFramePrivate.h">
+      <Filter>WebProcess\InjectedBundle\API\c</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WebProcess\InjectedBundle\API\c\WKBundleHitTestResult.h">
+      <Filter>WebProcess\InjectedBundle\API\c</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WebProcess\InjectedBundle\API\c\WKBundleInitialize.h">
+      <Filter>WebProcess\InjectedBundle\API\c</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WebProcess\InjectedBundle\API\c\WKBundleInspector.h">
+      <Filter>WebProcess\InjectedBundle\API\c</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WebProcess\InjectedBundle\API\c\WKBundleNavigationAction.h">
+      <Filter>WebProcess\InjectedBundle\API\c</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WebProcess\InjectedBundle\API\c\WKBundleNodeHandle.h">
+      <Filter>WebProcess\InjectedBundle\API\c</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WebProcess\InjectedBundle\API\c\WKBundleNodeHandlePrivate.h">
+      <Filter>WebProcess\InjectedBundle\API\c</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WebProcess\InjectedBundle\API\c\WKBundlePage.h">
+      <Filter>WebProcess\InjectedBundle\API\c</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WebProcess\InjectedBundle\API\c\WKBundlePageGroup.h">
+      <Filter>WebProcess\InjectedBundle\API\c</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WebProcess\InjectedBundle\API\c\WKBundlePageOverlay.h">
+      <Filter>WebProcess\InjectedBundle\API\c</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WebProcess\InjectedBundle\API\c\WKBundlePagePrivate.h">
+      <Filter>WebProcess\InjectedBundle\API\c</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WebProcess\InjectedBundle\API\c\WKBundlePrivate.h">
+      <Filter>WebProcess\InjectedBundle\API\c</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WebProcess\InjectedBundle\API\c\WKBundleRangeHandle.h">
+      <Filter>WebProcess\InjectedBundle\API\c</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WebProcess\InjectedBundle\API\c\WKBundleScriptWorld.h">
+      <Filter>WebProcess\InjectedBundle\API\c</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WebProcess\InjectedBundle\DOM\InjectedBundleNodeHandle.h">
+      <Filter>WebProcess\InjectedBundle\DOM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WebProcess\InjectedBundle\DOM\InjectedBundleRangeHandle.h">
+      <Filter>WebProcess\InjectedBundle\DOM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WebProcess\Plugins\Plugin.h">
+      <Filter>WebProcess\Plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WebProcess\Plugins\PluginController.h">
+      <Filter>WebProcess\Plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WebProcess\Plugins\PluginView.h">
+      <Filter>WebProcess\Plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WebProcess\Plugins\Netscape\JSNPMethod.h">
+      <Filter>WebProcess\Plugins\Netscape</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WebProcess\Plugins\Netscape\JSNPObject.h">
+      <Filter>WebProcess\Plugins\Netscape</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WebProcess\Plugins\Netscape\NetscapeBrowserFuncs.h">
+      <Filter>WebProcess\Plugins\Netscape</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WebProcess\Plugins\Netscape\NetscapePlugin.h">
+      <Filter>WebProcess\Plugins\Netscape</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WebProcess\Plugins\Netscape\NetscapePluginStream.h">
+      <Filter>WebProcess\Plugins\Netscape</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WebProcess\Plugins\Netscape\NPJSObject.h">
+      <Filter>WebProcess\Plugins\Netscape</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WebProcess\Plugins\Netscape\NPRuntimeObjectMap.h">
+      <Filter>WebProcess\Plugins\Netscape</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WebProcess\Plugins\Netscape\NPRuntimeUtilities.h">
+      <Filter>WebProcess\Plugins\Netscape</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WebProcess\FullScreen\WebFullScreenManager.h">
+      <Filter>WebProcess\FullScreen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WebProcess\Notifications\NotificationPermissionRequestManager.h">
+      <Filter>WebProcess\Notifications %28User%29</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WebProcess\Notifications\WebNotificationManager.h">
+      <Filter>WebProcess\Notifications %28User%29</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\BackingStore.h">
+      <Filter>UIProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\DrawingAreaProxy.h">
+      <Filter>UIProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\FindIndicator.h">
+      <Filter>UIProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\GenericCallback.h">
+      <Filter>UIProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\GeolocationPermissionRequestManagerProxy.h">
+      <Filter>UIProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\GeolocationPermissionRequestProxy.h">
+      <Filter>UIProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\PageClient.h">
+      <Filter>UIProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\ProcessModel.h">
+      <Filter>UIProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\ResponsivenessTimer.h">
+      <Filter>UIProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\TextChecker.h">
+      <Filter>UIProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\VisitedLinkProvider.h">
+      <Filter>UIProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\WebApplicationCacheManagerProxy.h">
+      <Filter>UIProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\WebBackForwardList.h">
+      <Filter>UIProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\WebConnectionToWebProcess.h">
+      <Filter>UIProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\WebContext.h">
+      <Filter>UIProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\WebContextConnectionClient.h">
+      <Filter>UIProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\WebContextInjectedBundleClient.h">
+      <Filter>UIProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\WebContextMenuProxy.h">
+      <Filter>UIProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\WebContextUserMessageCoders.h">
+      <Filter>UIProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\WebCookieManagerProxy.h">
+      <Filter>UIProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\WebCookieManagerProxyClient.h">
+      <Filter>UIProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\WebDatabaseManagerProxy.h">
+      <Filter>UIProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\WebDatabaseManagerProxyClient.h">
+      <Filter>UIProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\WebEditCommandProxy.h">
+      <Filter>UIProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\WebFindClient.h">
+      <Filter>UIProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\WebFormClient.h">
+      <Filter>UIProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\WebFormSubmissionListenerProxy.h">
+      <Filter>UIProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\WebFrameListenerProxy.h">
+      <Filter>UIProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\WebFramePolicyListenerProxy.h">
+      <Filter>UIProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\WebFrameProxy.h">
+      <Filter>UIProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\WebFullScreenManagerProxy.h">
+      <Filter>UIProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\WebGeolocationManagerProxy.h">
+      <Filter>UIProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\WebGeolocationProvider.h">
+      <Filter>UIProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\WebGrammarDetail.h">
+      <Filter>UIProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\WebIconDatabase.h">
+      <Filter>UIProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\WebIconDatabaseClient.h">
+      <Filter>UIProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\WebInspectorProxy.h">
+      <Filter>UIProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\WebMediaCacheManagerProxy.h">
+      <Filter>UIProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\WebOpenPanelResultListenerProxy.h">
+      <Filter>UIProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\WebPageContextMenuClient.h">
+      <Filter>UIProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\WebPageGroup.h">
+      <Filter>UIProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\WebPageProxy.h">
+      <Filter>UIProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\WebPreferences.h">
+      <Filter>UIProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\WebProcessProxy.h">
+      <Filter>UIProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\WebResourceCacheManagerProxy.h">
+      <Filter>UIProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\WebTextChecker.h">
+      <Filter>UIProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\WebTextCheckerClient.h">
+      <Filter>UIProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\API\C\WebKit2_C.h">
+      <Filter>UIProcess\API\C</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\API\C\WKAPICast.h">
+      <Filter>UIProcess\API\C</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\API\C\WKApplicationCacheManager.h">
+      <Filter>UIProcess\API\C</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\API\C\WKAuthenticationChallenge.h">
+      <Filter>UIProcess\API\C</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\API\C\WKAuthenticationDecisionListener.h">
+      <Filter>UIProcess\API\C</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\API\C\WKContext.h">
+      <Filter>UIProcess\API\C</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\API\C\WKContextPrivate.h">
+      <Filter>UIProcess\API\C</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\API\C\WKCookieManager.h">
+      <Filter>UIProcess\API\C</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\API\C\WKCredential.h">
+      <Filter>UIProcess\API\C</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\API\C\WKCredentialTypes.h">
+      <Filter>UIProcess\API\C</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\API\C\WKDatabaseManager.h">
+      <Filter>UIProcess\API\C</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\API\C\WKDownload.h">
+      <Filter>UIProcess\API\C</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\API\C\WKFormSubmissionListener.h">
+      <Filter>UIProcess\API\C</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\API\C\WKFrame.h">
+      <Filter>UIProcess\API\C</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\API\C\WKFramePolicyListener.h">
+      <Filter>UIProcess\API\C</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\API\C\WKGeolocationManager.h">
+      <Filter>UIProcess\API\C</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\API\C\WKGeolocationPermissionRequest.h">
+      <Filter>UIProcess\API\C</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\API\C\WKGeolocationPosition.h">
+      <Filter>UIProcess\API\C</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\API\C\WKGrammarDetail.h">
+      <Filter>UIProcess\API\C</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\API\C\WKHitTestResult.h">
+      <Filter>UIProcess\API\C</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\API\C\WKIconDatabase.h">
+      <Filter>UIProcess\API\C</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\API\C\WKInspector.h">
+      <Filter>UIProcess\API\C</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\API\C\WKKeyValueStorageManager.h">
+      <Filter>UIProcess\API\C</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\API\C\WKMediaCacheManager.h">
+      <Filter>UIProcess\API\C</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\API\C\WKNativeEvent.h">
+      <Filter>UIProcess\API\C</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\API\C\WKNotification.h">
+      <Filter>UIProcess\API\C</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\API\C\WKNotificationManager.h">
+      <Filter>UIProcess\API\C</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\API\C\WKNotificationPermissionRequest.h">
+      <Filter>UIProcess\API\C</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\API\C\WKNotificationProvider.h">
+      <Filter>UIProcess\API\C</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\API\C\WKOpenPanelParameters.h">
+      <Filter>UIProcess\API\C</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\API\C\WKOpenPanelResultListener.h">
+      <Filter>UIProcess\API\C</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\API\C\WKPage.h">
+      <Filter>UIProcess\API\C</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\API\C\WKPageGroup.h">
+      <Filter>UIProcess\API\C</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\API\C\WKPagePrivate.h">
+      <Filter>UIProcess\API\C</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\API\C\WKPluginSiteDataManager.h">
+      <Filter>UIProcess\API\C</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\API\C\WKProtectionSpace.h">
+      <Filter>UIProcess\API\C</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\API\C\WKProtectionSpaceTypes.h">
+      <Filter>UIProcess\API\C</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\API\C\WKResourceCacheManager.h">
+      <Filter>UIProcess\API\C</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\API\C\WKTextChecker.h">
+      <Filter>UIProcess\API\C</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\API\cpp\WKRetainPtr.h">
+      <Filter>UIProcess\API\cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\Authentication\AuthenticationChallengeProxy.h">
+      <Filter>UIProcess\Authentication</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\Authentication\AuthenticationDecisionListener.h">
+      <Filter>UIProcess\Authentication</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\Authentication\WebCredential.h">
+      <Filter>UIProcess\Authentication</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\Authentication\WebProtectionSpace.h">
+      <Filter>UIProcess\Authentication</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\Downloads\DownloadProxy.h">
+      <Filter>UIProcess\Downloads</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\Launcher\ProcessLauncher.h">
+      <Filter>UIProcess\Launcher</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\Plugins\PluginInfoStore.h">
+      <Filter>UIProcess\Plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\Plugins\WebPluginSiteDataManager.h">
+      <Filter>UIProcess\Plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\Notifications\NotificationPermissionRequest.h">
+      <Filter>UIProcess\Notifications %28User%29</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\Notifications\NotificationPermissionRequestManagerProxy.h">
+      <Filter>UIProcess\Notifications %28User%29</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\Notifications\WebNotification.h">
+      <Filter>UIProcess\Notifications %28User%29</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\Notifications\WebNotificationManagerProxy.h">
+      <Filter>UIProcess\Notifications %28User%29</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\Notifications\WebNotificationProvider.h">
+      <Filter>UIProcess\Notifications %28User%29</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Platform\Logging.h">
+      <Filter>Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Platform\Module.h">
+      <Filter>Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Platform\PlatformProcessIdentifier.h">
+      <Filter>Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Platform\SharedMemory.h">
+      <Filter>Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Platform\WorkQueue.h">
+      <Filter>Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\config.h" />
+    <ClInclude Include="..\WebKit2Prefix.h" />
+    <ClInclude Include="..\UIProcess\Storage\StorageManager.h">
+      <Filter>UIProcess\Storage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Network\NetworkProcessCreationParameters.h">
+      <Filter>Shared\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Network\NetworkProcessSupplement.h">
+      <Filter>Shared\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Network\NetworkResourceLoadParameters.h">
+      <Filter>Shared\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Network\CustomProtocols\CustomProtocolManager.h">
+      <Filter>Shared\Network\CustomProtocols</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Authentication\AuthenticationManager.h">
+      <Filter>Shared\Authentication</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Downloads\Download.h">
+      <Filter>Shared\Downloads</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Downloads\DownloadAuthenticationClient.h">
+      <Filter>Shared\Downloads</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Downloads\DownloadManager.h">
+      <Filter>Shared\Downloads</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\ChildProcessProxy.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\StatisticsRequest.h">
+      <Filter>UIProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\Plugins\PlugInAutoStartProvider.h">
+      <Filter>UIProcess\Plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\Plugins\PluginProcessManager.h">
+      <Filter>UIProcess\Plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\Plugins\PluginProcessProxy.h">
+      <Filter>UIProcess\Plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\WebContextClient.h">
+      <Filter>UIProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WebProcess\WebProcessSupplement.h">
+      <Filter>WebProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\Downloads\DownloadProxyMap.h">
+      <Filter>UIProcess\Downloads</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\TextCheckerCompletion.h">
+      <Filter>UIProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WebProcess\WebCoreSupport\WebPlugInClient.h">
+      <Filter>WebProcess\WebCoreSupport</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WebProcess\WebCoreSupport\WebVibrationClient.h">
+      <Filter>WebProcess\WebCoreSupport</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WebProcess\Storage\StorageAreaImpl.h">
+      <Filter>WebProcess\Storage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WebProcess\Storage\StorageAreaMap.h">
+      <Filter>WebProcess\Storage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WebProcess\Storage\StorageNamespaceImpl.h">
+      <Filter>WebProcess\Storage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Plugins\Netscape\PluginInformation.h">
+      <Filter>Shared\Plugins\Netscape</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\WebColorPicker.h">
+      <Filter>UIProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\WebKeyValueStorageManager.h">
+      <Filter>UIProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\WebOriginDataManagerProxy.h">
+      <Filter>UIProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\WebViewportAttributes.h">
+      <Filter>UIProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\Storage\LocalStorageDatabase.h">
+      <Filter>UIProcess\Storage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\Storage\LocalStorageDatabaseTracker.h">
+      <Filter>UIProcess\Storage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WebProcess\WebPage\PageBanner.h">
+      <Filter>WebProcess\WebPage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Plugins\PluginProcessCreationParameters.h">
+      <Filter>Shared\Plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Plugins\PluginProcessAttributes.h">
+      <Filter>Shared\Plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WebProcess\Plugins\PluginProcessConnection.h">
+      <Filter>WebProcess\Plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WebProcess\Plugins\PluginProcessConnectionManager.h">
+      <Filter>WebProcess\Plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WebProcess\Plugins\PluginProxy.h">
+      <Filter>WebProcess\Plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WebProcess\Databases\IndexedDB\WebIDBFactoryBackend.h">
+      <Filter>WebProcess\Databases\IndexedDB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WebProcess\Databases\WebToDatabaseProcessConnection.h">
+      <Filter>WebProcess\Databases</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WebProcess\OriginData\WebOriginDataManager.h">
+      <Filter>WebProcess\OriginData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Databases\IndexedDB\IDBUtilities.h">
+      <Filter>Shared\Databases\IndexedDB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Plugins\NPIdentifierData.h">
+      <Filter>Shared\Plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Plugins\NPObjectMessageReceiver.h">
+      <Filter>Shared\Plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Plugins\NPObjectProxy.h">
+      <Filter>Shared\Plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Plugins\NPRemoteObjectMap.h">
+      <Filter>Shared\Plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Plugins\NPVariantData.h">
+      <Filter>Shared\Plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="..\PluginProcess\PluginCreationParameters.h">
+      <Filter>PluginProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="$(ConfigurationBuildDir)\obj$(PlatformArchitecture)\$(ProjectName)\DerivedSources\AuthenticationManagerMessages.h">
+      <Filter>Derived Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="$(ConfigurationBuildDir)\obj$(PlatformArchitecture)\$(ProjectName)\DerivedSources\CustomProtocolManagerMessages.h">
+      <Filter>Derived Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="$(ConfigurationBuildDir)\obj$(PlatformArchitecture)\$(ProjectName)\DerivedSources\CustomProtocolManagerProxyMessages.h">
+      <Filter>Derived Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="$(ConfigurationBuildDir)\obj$(PlatformArchitecture)\$(ProjectName)\DerivedSources\DatabaseProcessMessages.h">
+      <Filter>Derived Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="$(ConfigurationBuildDir)\obj$(PlatformArchitecture)\$(ProjectName)\DerivedSources\DatabaseProcessProxyMessages.h">
+      <Filter>Derived Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="$(ConfigurationBuildDir)\obj$(PlatformArchitecture)\$(ProjectName)\DerivedSources\DatabaseToWebProcessConnectionMessages.h">
+      <Filter>Derived Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="$(ConfigurationBuildDir)\obj$(PlatformArchitecture)\$(ProjectName)\DerivedSources\DownloadProxyMessages.h">
+      <Filter>Derived Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="$(ConfigurationBuildDir)\obj$(PlatformArchitecture)\$(ProjectName)\DerivedSources\DrawingAreaMessages.h">
+      <Filter>Derived Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="$(ConfigurationBuildDir)\obj$(PlatformArchitecture)\$(ProjectName)\DerivedSources\DrawingAreaProxyMessages.h">
+      <Filter>Derived Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="$(ConfigurationBuildDir)\obj$(PlatformArchitecture)\$(ProjectName)\DerivedSources\EventDispatcherMessages.h">
+      <Filter>Derived Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="$(ConfigurationBuildDir)\obj$(PlatformArchitecture)\$(ProjectName)\DerivedSources\NetworkConnectionToWebProcessMessages.h">
+      <Filter>Derived Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="$(ConfigurationBuildDir)\obj$(PlatformArchitecture)\$(ProjectName)\DerivedSources\NetworkProcessConnectionMessages.h">
+      <Filter>Derived Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="$(ConfigurationBuildDir)\obj$(PlatformArchitecture)\$(ProjectName)\DerivedSources\NetworkProcessMessages.h">
+      <Filter>Derived Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="$(ConfigurationBuildDir)\obj$(PlatformArchitecture)\$(ProjectName)\DerivedSources\NetworkProcessProxyMessages.h">
+      <Filter>Derived Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="$(ConfigurationBuildDir)\obj$(PlatformArchitecture)\$(ProjectName)\DerivedSources\NetworkResourceLoaderMessages.h">
+      <Filter>Derived Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="$(ConfigurationBuildDir)\obj$(PlatformArchitecture)\$(ProjectName)\DerivedSources\NPObjectMessageReceiverMessages.h">
+      <Filter>Derived Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="$(ConfigurationBuildDir)\obj$(PlatformArchitecture)\$(ProjectName)\DerivedSources\PluginControllerProxyMessages.h">
+      <Filter>Derived Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="$(ConfigurationBuildDir)\obj$(PlatformArchitecture)\$(ProjectName)\DerivedSources\PluginProcessConnectionManagerMessages.h">
+      <Filter>Derived Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="$(ConfigurationBuildDir)\obj$(PlatformArchitecture)\$(ProjectName)\DerivedSources\PluginProcessConnectionMessages.h">
+      <Filter>Derived Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="$(ConfigurationBuildDir)\obj$(PlatformArchitecture)\$(ProjectName)\DerivedSources\PluginProcessMessages.h">
+      <Filter>Derived Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="$(ConfigurationBuildDir)\obj$(PlatformArchitecture)\$(ProjectName)\DerivedSources\PluginProcessProxyMessages.h">
+      <Filter>Derived Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="$(ConfigurationBuildDir)\obj$(PlatformArchitecture)\$(ProjectName)\DerivedSources\PluginProxyMessages.h">
+      <Filter>Derived Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="$(ConfigurationBuildDir)\obj$(PlatformArchitecture)\$(ProjectName)\DerivedSources\StorageAreaMapMessages.h">
+      <Filter>Derived Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="$(ConfigurationBuildDir)\obj$(PlatformArchitecture)\$(ProjectName)\DerivedSources\StorageManagerMessages.h">
+      <Filter>Derived Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="$(ConfigurationBuildDir)\obj$(PlatformArchitecture)\$(ProjectName)\DerivedSources\WebApplicationCacheManagerMessages.h">
+      <Filter>Derived Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="$(ConfigurationBuildDir)\obj$(PlatformArchitecture)\$(ProjectName)\DerivedSources\WebApplicationCacheManagerProxyMessages.h">
+      <Filter>Derived Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="$(ConfigurationBuildDir)\obj$(PlatformArchitecture)\$(ProjectName)\DerivedSources\WebConnectionMessages.h">
+      <Filter>Derived Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="$(ConfigurationBuildDir)\obj$(PlatformArchitecture)\$(ProjectName)\DerivedSources\WebContextMessages.h">
+      <Filter>Derived Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="$(ConfigurationBuildDir)\obj$(PlatformArchitecture)\$(ProjectName)\DerivedSources\WebCookieManagerMessages.h">
+      <Filter>Derived Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="$(ConfigurationBuildDir)\obj$(PlatformArchitecture)\$(ProjectName)\DerivedSources\WebCookieManagerProxyMessages.h">
+      <Filter>Derived Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="$(ConfigurationBuildDir)\obj$(PlatformArchitecture)\$(ProjectName)\DerivedSources\WebDatabaseManagerMessages.h">
+      <Filter>Derived Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="$(ConfigurationBuildDir)\obj$(PlatformArchitecture)\$(ProjectName)\DerivedSources\WebDatabaseManagerProxyMessages.h">
+      <Filter>Derived Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="$(ConfigurationBuildDir)\obj$(PlatformArchitecture)\$(ProjectName)\DerivedSources\WebFullScreenManagerMessages.h">
+      <Filter>Derived Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="$(ConfigurationBuildDir)\obj$(PlatformArchitecture)\$(ProjectName)\DerivedSources\WebFullScreenManagerProxyMessages.h">
+      <Filter>Derived Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="$(ConfigurationBuildDir)\obj$(PlatformArchitecture)\$(ProjectName)\DerivedSources\WebGeolocationManagerMessages.h">
+      <Filter>Derived Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="$(ConfigurationBuildDir)\obj$(PlatformArchitecture)\$(ProjectName)\DerivedSources\WebGeolocationManagerProxyMessages.h">
+      <Filter>Derived Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="$(ConfigurationBuildDir)\obj$(PlatformArchitecture)\$(ProjectName)\DerivedSources\WebIconDatabaseMessages.h">
+      <Filter>Derived Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="$(ConfigurationBuildDir)\obj$(PlatformArchitecture)\$(ProjectName)\DerivedSources\WebIconDatabaseProxyMessages.h">
+      <Filter>Derived Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="$(ConfigurationBuildDir)\obj$(PlatformArchitecture)\$(ProjectName)\DerivedSources\WebInspectorMessages.h">
+      <Filter>Derived Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="$(ConfigurationBuildDir)\obj$(PlatformArchitecture)\$(ProjectName)\DerivedSources\WebInspectorProxyMessages.h">
+      <Filter>Derived Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="$(ConfigurationBuildDir)\obj$(PlatformArchitecture)\$(ProjectName)\DerivedSources\WebMediaCacheManagerMessages.h">
+      <Filter>Derived Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="$(ConfigurationBuildDir)\obj$(PlatformArchitecture)\$(ProjectName)\DerivedSources\WebMediaCacheManagerProxyMessages.h">
+      <Filter>Derived Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="$(ConfigurationBuildDir)\obj$(PlatformArchitecture)\$(ProjectName)\DerivedSources\WebNotificationManagerMessages.h">
+      <Filter>Derived Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="$(ConfigurationBuildDir)\obj$(PlatformArchitecture)\$(ProjectName)\DerivedSources\WebOriginDataManagerMessages.h">
+      <Filter>Derived Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="$(ConfigurationBuildDir)\obj$(PlatformArchitecture)\$(ProjectName)\DerivedSources\WebOriginDataManagerProxyMessages.h">
+      <Filter>Derived Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="$(ConfigurationBuildDir)\obj$(PlatformArchitecture)\$(ProjectName)\DerivedSources\WebPageGroupProxyMessages.h">
+      <Filter>Derived Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="$(ConfigurationBuildDir)\obj$(PlatformArchitecture)\$(ProjectName)\DerivedSources\WebPageMessages.h">
+      <Filter>Derived Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="$(ConfigurationBuildDir)\obj$(PlatformArchitecture)\$(ProjectName)\DerivedSources\WebPageProxyMessages.h">
+      <Filter>Derived Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="$(ConfigurationBuildDir)\obj$(PlatformArchitecture)\$(ProjectName)\DerivedSources\WebProcessConnectionMessages.h">
+      <Filter>Derived Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="$(ConfigurationBuildDir)\obj$(PlatformArchitecture)\$(ProjectName)\DerivedSources\WebProcessMessages.h">
+      <Filter>Derived Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="$(ConfigurationBuildDir)\obj$(PlatformArchitecture)\$(ProjectName)\DerivedSources\WebProcessProxyMessages.h">
+      <Filter>Derived Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="$(ConfigurationBuildDir)\obj$(PlatformArchitecture)\$(ProjectName)\DerivedSources\WebResourceCacheManagerMessages.h">
+      <Filter>Derived Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="$(ConfigurationBuildDir)\obj$(PlatformArchitecture)\$(ProjectName)\DerivedSources\WebResourceCacheManagerProxyMessages.h">
+      <Filter>Derived Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="$(ConfigurationBuildDir)\obj$(PlatformArchitecture)\$(ProjectName)\DerivedSources\WebResourceLoaderMessages.h">
+      <Filter>Derived Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WebProcess\WebPage\CoordinatedGraphics\CoordinatedDrawingArea.h">
+      <Filter>WebProcess\WebPage\CoordinatedGraphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WebProcess\WebPage\CoordinatedGraphics\CoordinatedLayerTreeHost.h">
+      <Filter>WebProcess\WebPage\CoordinatedGraphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\CoordinatedGraphics\CoordinatedDrawingAreaProxy.h">
+      <Filter>UIProcess\CoordinatedGraphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\CoordinatedGraphics\CoordinatedLayerTreeHostProxy.h">
+      <Filter>UIProcess\CoordinatedGraphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\CoordinatedGraphics\WebView.h">
+      <Filter>UIProcess\CoordinatedGraphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\CoordinatedGraphics\WebViewClient.h">
+      <Filter>UIProcess\CoordinatedGraphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\CoordinatedGraphics\WKCoordinatedSceneAPICast.h">
+      <Filter>UIProcess\CoordinatedGraphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\CoordinatedGraphics\CoordinatedGraphicsArgumentCoders.h">
+      <Filter>Shared\CoordinatedGraphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\CoordinatedGraphics\WebCoordinatedSurface.h">
+      <Filter>Shared\CoordinatedGraphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\API\C\CoordinatedGraphics\WKView.h">
+      <Filter>UIProcess\API\C\CoordinatedGraphics</Filter>
+    </ClInclude>
+    <ClInclude Include="$(ConfigurationBuildDir)\obj$(PlatformArchitecture)\$(ProjectName)\DerivedSources\CoordinatedLayerTreeHostMessages.h">
+      <Filter>Derived Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="$(ConfigurationBuildDir)\obj$(PlatformArchitecture)\$(ProjectName)\DerivedSources\CoordinatedLayerTreeHostProxyMessages.h">
+      <Filter>Derived Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\DefaultUndoController.h">
+      <Filter>UIProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\NativeWebTouchEvent.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\InspectorServer\HTTPRequest.h">
+      <Filter>UIProcess\InspectorServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\InspectorServer\WebInspectorServer.h">
+      <Filter>UIProcess\InspectorServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\InspectorServer\WebSocketServer.h">
+      <Filter>UIProcess\InspectorServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\InspectorServer\WebSocketServerClient.h">
+      <Filter>UIProcess\InspectorServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\InspectorServer\WebSocketServerConnection.h">
+      <Filter>UIProcess\InspectorServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NetworkProcess\NetworkLoaderClient.h">
+      <Filter>NetworkProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NetworkProcess\NetworkProcess.h">
+      <Filter>NetworkProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NetworkProcess\NetworkProcessPlatformStrategies.h">
+      <Filter>NetworkProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NetworkProcess\NetworkResourceLoader.h">
+      <Filter>NetworkProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NetworkProcess\NetworkResourceLoadScheduler.h">
+      <Filter>NetworkProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NetworkProcess\RemoteNetworkingContext.h">
+      <Filter>NetworkProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NetworkProcess\SynchronousNetworkLoaderClient.h">
+      <Filter>NetworkProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NetworkProcess\AsynchronousNetworkLoaderClient.h">
+      <Filter>NetworkProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NetworkProcess\HostRecord.h">
+      <Filter>NetworkProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NetworkProcess\NetworkConnectionToWebProcess.h">
+      <Filter>NetworkProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NetworkProcess\FileAPI\NetworkBlobRegistry.h">
+      <Filter>NetworkProcess\FileAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\Network\NetworkProcessProxy.h">
+      <Filter>UIProcess\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WebProcess\Network\NetworkProcessConnection.h">
+      <Filter>WebProcess\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WebProcess\Network\WebResourceLoader.h">
+      <Filter>WebProcess\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WebProcess\Network\WebResourceLoadScheduler.h">
+      <Filter>WebProcess\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WebProcess\FileAPI\BlobRegistryProxy.h">
+      <Filter>WebProcess\FileAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Platform\IPC\DataReference.h">
+      <Filter>Platform\IPC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Platform\IPC\HandleMessage.h">
+      <Filter>Platform\IPC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Platform\IPC\MessageDecoder.h">
+      <Filter>Platform\IPC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Platform\IPC\MessageEncoder.h">
+      <Filter>Platform\IPC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Platform\IPC\MessageFlags.h">
+      <Filter>Platform\IPC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Platform\IPC\MessageReceiver.h">
+      <Filter>Platform\IPC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Platform\IPC\MessageReceiverMap.h">
+      <Filter>Platform\IPC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Platform\IPC\MessageSender.h">
+      <Filter>Platform\IPC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Platform\IPC\StringReference.h">
+      <Filter>Platform\IPC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Platform\IPC\ArgumentCoder.h">
+      <Filter>Platform\IPC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Platform\IPC\ArgumentCoders.h">
+      <Filter>Platform\IPC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Platform\IPC\ArgumentDecoder.h">
+      <Filter>Platform\IPC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Platform\IPC\ArgumentEncoder.h">
+      <Filter>Platform\IPC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Platform\IPC\Arguments.h">
+      <Filter>Platform\IPC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Platform\IPC\Attachment.h">
+      <Filter>Platform\IPC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Platform\IPC\Connection.h">
+      <Filter>Platform\IPC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\APIArray.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\ActivityAssertion.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\APIPageHandle.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\APIData.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\APIError.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\APIFrameHandle.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\APIGeometry.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\APINumber.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\APIURLResponse.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\APIURLRequest.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\ContextMenuContextData.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\ConnectionStack.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\NavigationActionData.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\UserData.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\SessionTracker.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\ShareableResource.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\WebBatteryStatus.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\WebKit2Initialize.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\WebMemorySampler.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\WebResourceBuffer.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\API\c\WKPluginInformation.h">
+      <Filter>Shared\API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\API\c\WKPageLoadTypesPrivate.h">
+      <Filter>Shared\API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\API\c\WKPageVisibilityTypes.h">
+      <Filter>Shared\API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\APISession.h">
+      <Filter>UIProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\APINavigationData.h">
+      <Filter>UIProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\FrameLoadState.h">
+      <Filter>UIProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\LocalStorageDetails.h">
+      <Filter>UIProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\PageLoadState.h">
+      <Filter>UIProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\WebBatteryManagerProxy.h">
+      <Filter>UIProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\API\C\WKNavigationDataRef.h">
+      <Filter>UIProcess\API\C</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\API\C\WKVibration.h">
+      <Filter>UIProcess\API\C</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\API\C\WKViewportAttributes.h">
+      <Filter>UIProcess\API\C</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\API\CoordinatedGraphics\WKCoordinatedScene.h">
+      <Filter>UIProcess\API\CoordinatedGraphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WebProcess\Battery\WebBatteryManager.h">
+      <Filter>WebProcess\Battery</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WebProcess\WebCoreSupport\WebProgressTrackerClient.h">
+      <Filter>WebProcess\WebCoreSupport</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WebProcess\WebPage\WebDocumentLoader.h">
+      <Filter>WebProcess\WebPage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WebProcess\WebPage\TapHighlightController.h">
+      <Filter>WebProcess\WebPage</Filter>
+    </ClInclude>
+    <ClInclude Include="$(ConfigurationBuildDir)\obj$(PlatformArchitecture)\$(ProjectName)\DerivedSources\DatabaseProcessIDBConnectionMessages.h">
+      <Filter>Derived Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="$(ConfigurationBuildDir)\obj$(PlatformArchitecture)\$(ProjectName)\DerivedSources\WebIDBServerConnectionMessages.h">
+      <Filter>Derived Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WebProcess\Databases\IndexedDB\WebIDBServerConnection.h">
+      <Filter>WebProcess\Databases\IndexedDB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WebProcess\WebPage\VisitedLinkTableController.h">
+      <Filter>WebProcess\WebPage</Filter>
+    </ClInclude>
+    <ClInclude Include="$(ConfigurationBuildDir)\obj$(PlatformArchitecture)\$(ProjectName)\DerivedSources\VisitedLinkTableControllerMessages.h">
+      <Filter>Derived Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="$(ConfigurationBuildDir)\obj$(PlatformArchitecture)\$(ProjectName)\DerivedSources\VisitedLinkProviderMessages.h">
+      <Filter>Derived Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\EditingRange.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\API\C\WKPreferencesRefPrivate.h">
+      <Filter>UIProcess\API\C</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\API\APIDownloadClient.h">
+      <Filter>UIProcess\API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\API\APIFindClient.h">
+      <Filter>UIProcess\API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\API\APIHistoryClient.h">
+      <Filter>UIProcess\API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\API\APILoaderClient.h">
+      <Filter>UIProcess\API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\API\APIPolicyClient.h">
+      <Filter>UIProcess\API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\API\APIUIClient.h">
+      <Filter>UIProcess\API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\API\C\WKBackForwardListItemRef.h">
+      <Filter>UIProcess\API\C</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\API\C\WKBackForwardListRef.h">
+      <Filter>UIProcess\API\C</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WebProcess\InjectedBundle\API\APIInjectedBundlePageUIClient.h">
+      <Filter>WebProcess\InjectedBundle\API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WebProcess\InjectedBundle\APIInjectedBundleFormClient.h">
+      <Filter>WebProcess\InjectedBundle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WebProcess\WebPage\PageOverlayController.h">
+      <Filter>WebProcess\WebPage</Filter>
+    </ClInclude>
+    <ClInclude Include="WebKitPrefix.h" />
+    <ClInclude Include="..\UIProcess\AutoCorrectionCallback.h">
+      <Filter>UIProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WebProcess\WebCoreSupport\curl\WebFrameNetworkingContext.h">
+      <Filter>WebProcess\WebCoreSupport\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\VisibleContentRectUpdateInfo.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\PluginProcess\PluginControllerProxy.h">
+      <Filter>PluginProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\PluginProcess\PluginProcess.h">
+      <Filter>PluginProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\PluginProcess\WebProcessConnection.h">
+      <Filter>PluginProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\PluginProcess\win\PluginProcessMainWin.h">
+      <Filter>PluginProcess\win</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WebProcess\win\WebProcessMainWin.h">
+      <Filter>WebProcess\win</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\API\C\win\WKAPICastWin.h">
+      <Filter>UIProcess\API\C\win</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\API\C\win\WKViewWin.h">
+      <Filter>UIProcess\API\C\win</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\API\c\win\WKBaseWin.h">
+      <Filter>Shared\API\win</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\win\WebViewWin.h">
+      <Filter>UIProcess\win</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\API\c\WKDeclarationSpecifiers.h">
+      <Filter>Shared\API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\Launcher\win\WSASocketPair.h">
+      <Filter>UIProcess\Launcher\win</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Platform\IPC\win\CompletionPort.h">
+      <Filter>Platform\IPC\win</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\API\c\win\WKStringWin.h">
+      <Filter>Shared\API\win</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\API\C\WKContextInjectedBundleClient.h">
+      <Filter>UIProcess\API\C</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\API\C\WKBatteryManager.h">
+      <Filter>UIProcess\API\C</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\API\C\WKBatteryStatus.h">
+      <Filter>UIProcess\API\C</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\API\C\WKContextConnectionClient.h">
+      <Filter>UIProcess\API\C</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\API\C\WKContextDownloadClient.h">
+      <Filter>UIProcess\API\C</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\API\C\WKContextHistoryClient.h">
+      <Filter>UIProcess\API\C</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\API\C\WKOriginDataManager.h">
+      <Filter>UIProcess\API\C</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\API\C\WKPageContextMenuClient.h">
+      <Filter>UIProcess\API\C</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\API\C\WKPageFindClient.h">
+      <Filter>UIProcess\API\C</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\API\C\WKPageFindMatchesClient.h">
+      <Filter>UIProcess\API\C</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\API\C\WKPageFormClient.h">
+      <Filter>UIProcess\API\C</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\API\C\WKPagePolicyClient.h">
+      <Filter>UIProcess\API\C</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\API\C\WKPagePolicyClientInternal.h">
+      <Filter>UIProcess\API\C</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\API\C\WKPageLoaderClient.h">
+      <Filter>UIProcess\API\C</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\API\C\WKPreferencesRef.h">
+      <Filter>UIProcess\API\C</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\API\C\WKSessionRef.h">
+      <Filter>UIProcess\API\C</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\API\C\WKPageUIClient.h">
+      <Filter>UIProcess\API\C</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\APIContextConfiguration.h">
+      <Filter>UIProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\API\C\WKContextConfigurationRef.h">
+      <Filter>UIProcess\API\C</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\win\WebEventFactory.h">
+      <Filter>Shared\win</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\WebPreferencesDefinitions.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\WebPreferencesKeys.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\UserContent\WebScriptMessageHandler.h">
+      <Filter>UIProcess\UserContent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\UserContent\WebUserContentControllerProxy.h">
+      <Filter>UIProcess\UserContent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WebProcess\UserContent\WebUserContentController.h">
+      <Filter>WebProcess\UserContent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\WebKitBuild\Debug_WinCairo\obj32\WebKit2\DerivedSources\WebUserContentControllerMessages.h">
+      <Filter>Derived Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\WebKitBuild\Debug_WinCairo\obj32\WebKit2\DerivedSources\WebUserContentControllerProxyMessages.h">
+      <Filter>Derived Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\API\c\WKErrorRef.h">
+      <Filter>Shared\API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\API\APISessionState.h">
+      <Filter>UIProcess\API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\ProcessAssertion.h">
+      <Filter>UIProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\ProcessThrottler.h">
+      <Filter>UIProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WebProcess\WebCoreSupport\SessionStateConversion.h">
+      <Filter>WebProcess\WebCoreSupport</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UIProcess\LegacySessionStateCoding.h">
+      <Filter>UIProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Platform\IPC\win\NonblockIoHandle.h">
+      <Filter>Platform\IPC\win</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Shared\APIObject.cpp">
+      <Filter>Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\ChildProcess.cpp">
+      <Filter>Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\DictionaryPopupInfo.cpp">
+      <Filter>Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\EditorState.cpp">
+      <Filter>Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\FontInfo.cpp">
+      <Filter>Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\ImmutableDictionary.cpp">
+      <Filter>Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\MutableDictionary.cpp">
+      <Filter>Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\OriginAndDatabases.cpp">
+      <Filter>Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\PlatformPopupMenuData.cpp">
+      <Filter>Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\PrintInfo.cpp">
+      <Filter>Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\SecurityOriginData.cpp">
+      <Filter>Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\SessionState.cpp">
+      <Filter>Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\ShareableBitmap.cpp">
+      <Filter>Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\StatisticsData.cpp">
+      <Filter>Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\UpdateInfo.cpp">
+      <Filter>Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\VisitedLinkTable.cpp">
+      <Filter>Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\WebBackForwardListItem.cpp">
+      <Filter>Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\WebConnection.cpp">
+      <Filter>Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\WebConnectionClient.cpp">
+      <Filter>Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\WebContextMenuItem.cpp">
+      <Filter>Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\WebContextMenuItemData.cpp">
+      <Filter>Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\WebCoreArgumentCoders.cpp">
+      <Filter>Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\WebEvent.cpp">
+      <Filter>Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\WebEventConversion.cpp">
+      <Filter>Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\WebGeolocationPosition.cpp">
+      <Filter>Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\WebHitTestResult.cpp">
+      <Filter>Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\WebImage.cpp">
+      <Filter>Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\WebKeyboardEvent.cpp">
+      <Filter>Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\WebMouseEvent.cpp">
+      <Filter>Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\WebOpenPanelParameters.cpp">
+      <Filter>Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\WebPageCreationParameters.cpp">
+      <Filter>Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\WebPageGroupData.cpp">
+      <Filter>Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\WebPlatformTouchPoint.cpp">
+      <Filter>Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\WebPopupItem.cpp">
+      <Filter>Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\WebPreferencesStore.cpp">
+      <Filter>Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\WebProcessCreationParameters.cpp">
+      <Filter>Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\WebRenderLayer.cpp">
+      <Filter>Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\WebRenderObject.cpp">
+      <Filter>Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\WebTouchEvent.cpp">
+      <Filter>Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\WebWheelEvent.cpp">
+      <Filter>Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\API\c\WKArray.cpp">
+      <Filter>Shared\API</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\API\c\WKCertificateInfo.cpp">
+      <Filter>Shared\API</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\API\c\WKConnectionRef.cpp">
+      <Filter>Shared\API</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\API\c\WKContextMenuItem.cpp">
+      <Filter>Shared\API</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\API\c\WKData.cpp">
+      <Filter>Shared\API</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\API\c\WKDictionary.cpp">
+      <Filter>Shared\API</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\API\c\WKGeometry.cpp">
+      <Filter>Shared\API</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\API\c\WKImage.cpp">
+      <Filter>Shared\API</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\API\c\WKMutableArray.cpp">
+      <Filter>Shared\API</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\API\c\WKMutableDictionary.cpp">
+      <Filter>Shared\API</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\API\c\WKNumber.cpp">
+      <Filter>Shared\API</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\API\c\WKRenderLayer.cpp">
+      <Filter>Shared\API</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\API\c\WKRenderObject.cpp">
+      <Filter>Shared\API</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\API\c\WKSecurityOrigin.cpp">
+      <Filter>Shared\API</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\API\c\WKSerializedScriptValue.cpp">
+      <Filter>Shared\API</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\API\c\WKString.cpp">
+      <Filter>Shared\API</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\API\c\WKType.cpp">
+      <Filter>Shared\API</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\API\c\WKURL.cpp">
+      <Filter>Shared\API</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\API\c\WKURLRequest.cpp">
+      <Filter>Shared\API</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\API\c\WKURLResponse.cpp">
+      <Filter>Shared\API</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\API\c\WKUserContentURLPattern.cpp">
+      <Filter>Shared\API</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\API\c\cairo\WKImageCairo.cpp">
+      <Filter>Shared\API\cairo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\cairo\ShareableBitmapCairo.cpp">
+      <Filter>Shared\cairo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\Plugins\PluginModuleInfo.cpp">
+      <Filter>Shared\Plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\Plugins\Netscape\NetscapePluginModule.cpp">
+      <Filter>Shared\Plugins\Netscape</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WebProcess\WebConnectionToUIProcess.cpp">
+      <Filter>WebProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WebProcess\WebProcess.cpp">
+      <Filter>WebProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WebProcess\ApplicationCache\WebApplicationCacheManager.cpp">
+      <Filter>WebProcess\ApplicationCache</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WebProcess\Geolocation\GeolocationPermissionRequestManager.cpp">
+      <Filter>WebProcess\Geolocation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WebProcess\Geolocation\WebGeolocationManager.cpp">
+      <Filter>WebProcess\Geolocation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WebProcess\IconDatabase\WebIconDatabaseProxy.cpp">
+      <Filter>WebProcess\IconDatabase</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WebProcess\MediaCache\WebMediaCacheManager.cpp">
+      <Filter>WebProcess\MediaCache</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WebProcess\ResourceCache\WebResourceCacheManager.cpp">
+      <Filter>WebProcess\ResourceCache</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WebProcess\Cookies\WebCookieManager.cpp">
+      <Filter>WebProcess\Cookies</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WebProcess\Cookies\curl\WebCookieManagerCurl.cpp">
+      <Filter>WebProcess\Cookies\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WebProcess\WebCoreSupport\WebChromeClient.cpp">
+      <Filter>WebProcess\WebCoreSupport</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WebProcess\WebCoreSupport\WebColorChooser.cpp">
+      <Filter>WebProcess\WebCoreSupport</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WebProcess\WebCoreSupport\WebContextMenuClient.cpp">
+      <Filter>WebProcess\WebCoreSupport</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WebProcess\WebCoreSupport\WebDatabaseManager.cpp">
+      <Filter>WebProcess\WebCoreSupport</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WebProcess\WebCoreSupport\WebDragClient.cpp">
+      <Filter>WebProcess\WebCoreSupport</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WebProcess\WebCoreSupport\WebEditorClient.cpp">
+      <Filter>WebProcess\WebCoreSupport</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WebProcess\WebCoreSupport\WebFrameLoaderClient.cpp">
+      <Filter>WebProcess\WebCoreSupport</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WebProcess\WebCoreSupport\WebGeolocationClient.cpp">
+      <Filter>WebProcess\WebCoreSupport</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WebProcess\WebCoreSupport\WebInspectorClient.cpp">
+      <Filter>WebProcess\WebCoreSupport</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WebProcess\WebCoreSupport\WebInspectorFrontendClient.cpp">
+      <Filter>WebProcess\WebCoreSupport</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WebProcess\WebCoreSupport\WebNotificationClient.cpp">
+      <Filter>WebProcess\WebCoreSupport</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WebProcess\WebCoreSupport\WebPlatformStrategies.cpp">
+      <Filter>WebProcess\WebCoreSupport</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WebProcess\WebCoreSupport\WebPopupMenu.cpp">
+      <Filter>WebProcess\WebCoreSupport</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WebProcess\WebCoreSupport\WebSearchPopupMenu.cpp">
+      <Filter>WebProcess\WebCoreSupport</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WebProcess\WebPage\DrawingArea.cpp">
+      <Filter>WebProcess\WebPage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WebProcess\WebPage\EventDispatcher.cpp">
+      <Filter>WebProcess\WebPage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WebProcess\WebPage\FindController.cpp">
+      <Filter>WebProcess\WebPage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WebProcess\WebPage\LayerTreeHost.cpp">
+      <Filter>WebProcess\WebPage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WebProcess\WebPage\PageOverlay.cpp">
+      <Filter>WebProcess\WebPage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WebProcess\WebPage\WebBackForwardListProxy.cpp">
+      <Filter>WebProcess\WebPage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WebProcess\WebPage\WebContextMenu.cpp">
+      <Filter>WebProcess\WebPage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WebProcess\WebPage\WebFrame.cpp">
+      <Filter>WebProcess\WebPage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WebProcess\WebPage\WebInspector.cpp">
+      <Filter>WebProcess\WebPage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WebProcess\WebPage\WebOpenPanelResultListener.cpp">
+      <Filter>WebProcess\WebPage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WebProcess\WebPage\WebPage.cpp">
+      <Filter>WebProcess\WebPage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WebProcess\WebPage\WebPageGroupProxy.cpp">
+      <Filter>WebProcess\WebPage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WebProcess\WebPage\WebUndoStep.cpp">
+      <Filter>WebProcess\WebPage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WebProcess\InjectedBundle\InjectedBundle.cpp">
+      <Filter>WebProcess\InjectedBundle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WebProcess\InjectedBundle\InjectedBundleBackForwardList.cpp">
+      <Filter>WebProcess\InjectedBundle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WebProcess\InjectedBundle\InjectedBundleBackForwardListItem.cpp">
+      <Filter>WebProcess\InjectedBundle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WebProcess\InjectedBundle\InjectedBundleClient.cpp">
+      <Filter>WebProcess\InjectedBundle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WebProcess\InjectedBundle\InjectedBundleDOMWindowExtension.cpp">
+      <Filter>WebProcess\InjectedBundle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WebProcess\InjectedBundle\InjectedBundleHitTestResult.cpp">
+      <Filter>WebProcess\InjectedBundle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WebProcess\InjectedBundle\InjectedBundleNavigationAction.cpp">
+      <Filter>WebProcess\InjectedBundle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WebProcess\InjectedBundle\InjectedBundlePageContextMenuClient.cpp">
+      <Filter>WebProcess\InjectedBundle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WebProcess\InjectedBundle\InjectedBundlePageDiagnosticLoggingClient.cpp">
+      <Filter>WebProcess\InjectedBundle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WebProcess\InjectedBundle\InjectedBundlePageEditorClient.cpp">
+      <Filter>WebProcess\InjectedBundle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WebProcess\InjectedBundle\InjectedBundlePageFormClient.cpp">
+      <Filter>WebProcess\InjectedBundle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WebProcess\InjectedBundle\InjectedBundlePageFullScreenClient.cpp">
+      <Filter>WebProcess\InjectedBundle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WebProcess\InjectedBundle\InjectedBundlePageLoaderClient.cpp">
+      <Filter>WebProcess\InjectedBundle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WebProcess\InjectedBundle\InjectedBundlePagePolicyClient.cpp">
+      <Filter>WebProcess\InjectedBundle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WebProcess\InjectedBundle\InjectedBundlePageResourceLoadClient.cpp">
+      <Filter>WebProcess\InjectedBundle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WebProcess\InjectedBundle\InjectedBundlePageUIClient.cpp">
+      <Filter>WebProcess\InjectedBundle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WebProcess\InjectedBundle\InjectedBundleScriptWorld.cpp">
+      <Filter>WebProcess\InjectedBundle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WebProcess\InjectedBundle\API\c\WKBundle.cpp">
+      <Filter>WebProcess\InjectedBundle\API\c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WebProcess\InjectedBundle\API\c\WKBundleBackForwardList.cpp">
+      <Filter>WebProcess\InjectedBundle\API\c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WebProcess\InjectedBundle\API\c\WKBundleBackForwardListItem.cpp">
+      <Filter>WebProcess\InjectedBundle\API\c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WebProcess\InjectedBundle\API\c\WKBundleDOMWindowExtension.cpp">
+      <Filter>WebProcess\InjectedBundle\API\c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WebProcess\InjectedBundle\API\c\WKBundleFrame.cpp">
+      <Filter>WebProcess\InjectedBundle\API\c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WebProcess\InjectedBundle\API\c\WKBundleHitTestResult.cpp">
+      <Filter>WebProcess\InjectedBundle\API\c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WebProcess\InjectedBundle\API\c\WKBundleInspector.cpp">
+      <Filter>WebProcess\InjectedBundle\API\c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WebProcess\InjectedBundle\API\c\WKBundleNavigationAction.cpp">
+      <Filter>WebProcess\InjectedBundle\API\c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WebProcess\InjectedBundle\API\c\WKBundleNodeHandle.cpp">
+      <Filter>WebProcess\InjectedBundle\API\c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WebProcess\InjectedBundle\API\c\WKBundlePage.cpp">
+      <Filter>WebProcess\InjectedBundle\API\c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WebProcess\InjectedBundle\API\c\WKBundlePageGroup.cpp">
+      <Filter>WebProcess\InjectedBundle\API\c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WebProcess\InjectedBundle\API\c\WKBundlePageOverlay.cpp">
+      <Filter>WebProcess\InjectedBundle\API\c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WebProcess\InjectedBundle\API\c\WKBundleRangeHandle.cpp">
+      <Filter>WebProcess\InjectedBundle\API\c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WebProcess\InjectedBundle\API\c\WKBundleScriptWorld.cpp">
+      <Filter>WebProcess\InjectedBundle\API\c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WebProcess\InjectedBundle\DOM\InjectedBundleNodeHandle.cpp">
+      <Filter>WebProcess\InjectedBundle\DOM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WebProcess\InjectedBundle\DOM\InjectedBundleRangeHandle.cpp">
+      <Filter>WebProcess\InjectedBundle\DOM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WebProcess\Plugins\Plugin.cpp">
+      <Filter>WebProcess\Plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WebProcess\Plugins\PluginView.cpp">
+      <Filter>WebProcess\Plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WebProcess\Plugins\Netscape\JSNPMethod.cpp">
+      <Filter>WebProcess\Plugins\Netscape</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WebProcess\Plugins\Netscape\JSNPObject.cpp">
+      <Filter>WebProcess\Plugins\Netscape</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WebProcess\Plugins\Netscape\NetscapeBrowserFuncs.cpp">
+      <Filter>WebProcess\Plugins\Netscape</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WebProcess\Plugins\Netscape\NetscapePlugin.cpp">
+      <Filter>WebProcess\Plugins\Netscape</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WebProcess\Plugins\Netscape\NetscapePluginStream.cpp">
+      <Filter>WebProcess\Plugins\Netscape</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WebProcess\Plugins\Netscape\NPJSObject.cpp">
+      <Filter>WebProcess\Plugins\Netscape</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WebProcess\Plugins\Netscape\NPRuntimeObjectMap.cpp">
+      <Filter>WebProcess\Plugins\Netscape</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WebProcess\Plugins\Netscape\NPRuntimeUtilities.cpp">
+      <Filter>WebProcess\Plugins\Netscape</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WebProcess\FullScreen\WebFullScreenManager.cpp">
+      <Filter>WebProcess\FullScreen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WebProcess\Notifications\NotificationPermissionRequestManager.cpp">
+      <Filter>WebProcess\Notifications %28User%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WebProcess\Notifications\WebNotificationManager.cpp">
+      <Filter>WebProcess\Notifications %28User%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\BackingStore.cpp">
+      <Filter>UIProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\DrawingAreaProxy.cpp">
+      <Filter>UIProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\FindIndicator.cpp">
+      <Filter>UIProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\GeolocationPermissionRequestManagerProxy.cpp">
+      <Filter>UIProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\GeolocationPermissionRequestProxy.cpp">
+      <Filter>UIProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\ResponsivenessTimer.cpp">
+      <Filter>UIProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\VisitedLinkProvider.cpp">
+      <Filter>UIProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\WebApplicationCacheManagerProxy.cpp">
+      <Filter>UIProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\WebBackForwardList.cpp">
+      <Filter>UIProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\WebConnectionToWebProcess.cpp">
+      <Filter>UIProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\WebContext.cpp">
+      <Filter>UIProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\WebContextConnectionClient.cpp">
+      <Filter>UIProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\WebContextInjectedBundleClient.cpp">
+      <Filter>UIProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\WebContextMenuProxy.cpp">
+      <Filter>UIProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\WebCookieManagerProxy.cpp">
+      <Filter>UIProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\WebCookieManagerProxyClient.cpp">
+      <Filter>UIProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\WebDatabaseManagerProxy.cpp">
+      <Filter>UIProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\WebDatabaseManagerProxyClient.cpp">
+      <Filter>UIProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\WebEditCommandProxy.cpp">
+      <Filter>UIProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\WebFindClient.cpp">
+      <Filter>UIProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\WebFormClient.cpp">
+      <Filter>UIProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\WebFormSubmissionListenerProxy.cpp">
+      <Filter>UIProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\WebFrameListenerProxy.cpp">
+      <Filter>UIProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\WebFramePolicyListenerProxy.cpp">
+      <Filter>UIProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\WebFrameProxy.cpp">
+      <Filter>UIProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\WebFullScreenManagerProxy.cpp">
+      <Filter>UIProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\WebGeolocationManagerProxy.cpp">
+      <Filter>UIProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\WebGeolocationProvider.cpp">
+      <Filter>UIProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\WebGrammarDetail.cpp">
+      <Filter>UIProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\WebIconDatabase.cpp">
+      <Filter>UIProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\WebIconDatabaseClient.cpp">
+      <Filter>UIProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\WebInspectorProxy.cpp">
+      <Filter>UIProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\WebMediaCacheManagerProxy.cpp">
+      <Filter>UIProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\WebOpenPanelResultListenerProxy.cpp">
+      <Filter>UIProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\WebPageContextMenuClient.cpp">
+      <Filter>UIProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\WebPageGroup.cpp">
+      <Filter>UIProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\WebPageProxy.cpp">
+      <Filter>UIProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\WebPreferences.cpp">
+      <Filter>UIProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\WebProcessProxy.cpp">
+      <Filter>UIProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\WebResourceCacheManagerProxy.cpp">
+      <Filter>UIProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\WebTextChecker.cpp">
+      <Filter>UIProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\WebTextCheckerClient.cpp">
+      <Filter>UIProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\API\C\WKApplicationCacheManager.cpp">
+      <Filter>UIProcess\API\C</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\API\C\WKAuthenticationChallenge.cpp">
+      <Filter>UIProcess\API\C</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\API\C\WKAuthenticationDecisionListener.cpp">
+      <Filter>UIProcess\API\C</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\API\C\WKContext.cpp">
+      <Filter>UIProcess\API\C</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\API\C\WKCookieManager.cpp">
+      <Filter>UIProcess\API\C</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\API\C\WKCredential.cpp">
+      <Filter>UIProcess\API\C</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\API\C\WKDatabaseManager.cpp">
+      <Filter>UIProcess\API\C</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\API\C\WKDownload.cpp">
+      <Filter>UIProcess\API\C</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\API\C\WKFormSubmissionListener.cpp">
+      <Filter>UIProcess\API\C</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\API\C\WKFrame.cpp">
+      <Filter>UIProcess\API\C</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\API\C\WKFramePolicyListener.cpp">
+      <Filter>UIProcess\API\C</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\API\C\WKGeolocationManager.cpp">
+      <Filter>UIProcess\API\C</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\API\C\WKGeolocationPermissionRequest.cpp">
+      <Filter>UIProcess\API\C</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\API\C\WKGeolocationPosition.cpp">
+      <Filter>UIProcess\API\C</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\API\C\WKGrammarDetail.cpp">
+      <Filter>UIProcess\API\C</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\API\C\WKHitTestResult.cpp">
+      <Filter>UIProcess\API\C</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\API\C\WKIconDatabase.cpp">
+      <Filter>UIProcess\API\C</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\API\C\WKInspector.cpp">
+      <Filter>UIProcess\API\C</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\API\C\WKKeyValueStorageManager.cpp">
+      <Filter>UIProcess\API\C</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\API\C\WKMediaCacheManager.cpp">
+      <Filter>UIProcess\API\C</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\API\C\WKNotification.cpp">
+      <Filter>UIProcess\API\C</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\API\C\WKNotificationManager.cpp">
+      <Filter>UIProcess\API\C</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\API\C\WKNotificationPermissionRequest.cpp">
+      <Filter>UIProcess\API\C</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\API\C\WKOpenPanelParameters.cpp">
+      <Filter>UIProcess\API\C</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\API\C\WKOpenPanelResultListener.cpp">
+      <Filter>UIProcess\API\C</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\API\C\WKPage.cpp">
+      <Filter>UIProcess\API\C</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\API\C\WKPageGroup.cpp">
+      <Filter>UIProcess\API\C</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\API\C\WKPluginSiteDataManager.cpp">
+      <Filter>UIProcess\API\C</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\API\C\WKPreferences.cpp">
+      <Filter>UIProcess\API\C</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\API\C\WKProtectionSpace.cpp">
+      <Filter>UIProcess\API\C</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\API\C\WKResourceCacheManager.cpp">
+      <Filter>UIProcess\API\C</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\API\C\WKTextChecker.cpp">
+      <Filter>UIProcess\API\C</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\Authentication\AuthenticationChallengeProxy.cpp">
+      <Filter>UIProcess\Authentication</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\Authentication\AuthenticationDecisionListener.cpp">
+      <Filter>UIProcess\Authentication</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\Authentication\WebCredential.cpp">
+      <Filter>UIProcess\Authentication</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\Authentication\WebProtectionSpace.cpp">
+      <Filter>UIProcess\Authentication</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\Downloads\DownloadProxy.cpp">
+      <Filter>UIProcess\Downloads</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\Launcher\ProcessLauncher.cpp">
+      <Filter>UIProcess\Launcher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\Plugins\PluginInfoStore.cpp">
+      <Filter>UIProcess\Plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\Plugins\WebPluginSiteDataManager.cpp">
+      <Filter>UIProcess\Plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\Notifications\NotificationPermissionRequest.cpp">
+      <Filter>UIProcess\Notifications %28User%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\Notifications\NotificationPermissionRequestManagerProxy.cpp">
+      <Filter>UIProcess\Notifications %28User%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\Notifications\WebNotification.cpp">
+      <Filter>UIProcess\Notifications %28User%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\Notifications\WebNotificationManagerProxy.cpp">
+      <Filter>UIProcess\Notifications %28User%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\Notifications\WebNotificationProvider.cpp">
+      <Filter>UIProcess\Notifications %28User%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Platform\Logging.cpp">
+      <Filter>Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Platform\Module.cpp">
+      <Filter>Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Platform\WorkQueue.cpp">
+      <Filter>Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WebKit2Prefix.cpp" />
+    <ClCompile Include="..\UIProcess\Storage\StorageManager.cpp">
+      <Filter>UIProcess\Storage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\Network\NetworkProcessCreationParameters.cpp">
+      <Filter>Shared\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\Network\NetworkResourceLoadParameters.cpp">
+      <Filter>Shared\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\Authentication\AuthenticationManager.cpp">
+      <Filter>Shared\Authentication</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\Downloads\Download.cpp">
+      <Filter>Shared\Downloads</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\Downloads\DownloadAuthenticationClient.cpp">
+      <Filter>Shared\Downloads</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\Downloads\DownloadManager.cpp">
+      <Filter>Shared\Downloads</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\ChildProcessProxy.cpp">
+      <Filter>Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\StatisticsRequest.cpp">
+      <Filter>UIProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\Plugins\PlugInAutoStartProvider.cpp">
+      <Filter>UIProcess\Plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\Plugins\PluginProcessManager.cpp">
+      <Filter>UIProcess\Plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\Plugins\PluginProcessProxy.cpp">
+      <Filter>UIProcess\Plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\WebContextClient.cpp">
+      <Filter>UIProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\Downloads\DownloadProxyMap.cpp">
+      <Filter>UIProcess\Downloads</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\TextCheckerCompletion.cpp">
+      <Filter>UIProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WebProcess\WebCoreSupport\WebPlugInClient.cpp">
+      <Filter>WebProcess\WebCoreSupport</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WebProcess\WebCoreSupport\WebVibrationClient.cpp">
+      <Filter>WebProcess\WebCoreSupport</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WebProcess\Storage\StorageAreaImpl.cpp">
+      <Filter>WebProcess\Storage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WebProcess\Storage\StorageAreaMap.cpp">
+      <Filter>WebProcess\Storage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WebProcess\Storage\StorageNamespaceImpl.cpp">
+      <Filter>WebProcess\Storage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\Plugins\Netscape\PluginInformation.cpp">
+      <Filter>Shared\Plugins\Netscape</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\WebColorPicker.cpp">
+      <Filter>UIProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\WebKeyValueStorageManager.cpp">
+      <Filter>UIProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\WebOriginDataManagerProxy.cpp">
+      <Filter>UIProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\WebViewportAttributes.cpp">
+      <Filter>UIProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\Storage\LocalStorageDatabase.cpp">
+      <Filter>UIProcess\Storage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\Storage\LocalStorageDatabaseTracker.cpp">
+      <Filter>UIProcess\Storage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WebProcess\WebPage\PageBanner.cpp">
+      <Filter>WebProcess\WebPage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\Plugins\PluginProcessCreationParameters.cpp">
+      <Filter>Shared\Plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WebProcess\Plugins\PluginProcessConnection.cpp">
+      <Filter>WebProcess\Plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WebProcess\Plugins\PluginProcessConnectionManager.cpp">
+      <Filter>WebProcess\Plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WebProcess\Plugins\PluginProxy.cpp">
+      <Filter>WebProcess\Plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WebProcess\Databases\IndexedDB\WebIDBFactoryBackend.cpp">
+      <Filter>WebProcess\Databases\IndexedDB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WebProcess\Databases\WebToDatabaseProcessConnection.cpp">
+      <Filter>WebProcess\Databases</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WebProcess\OriginData\WebOriginDataManager.cpp">
+      <Filter>WebProcess\OriginData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\Databases\IndexedDB\IDBUtilities.cpp">
+      <Filter>Shared\Databases\IndexedDB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\Plugins\NPObjectMessageReceiver.cpp">
+      <Filter>Shared\Plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\Plugins\NPObjectProxy.cpp">
+      <Filter>Shared\Plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\Plugins\NPRemoteObjectMap.cpp">
+      <Filter>Shared\Plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\Plugins\NPVariantData.cpp">
+      <Filter>Shared\Plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\Plugins\NPIdentifierData.cpp">
+      <Filter>Shared\Plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PluginProcess\PluginCreationParameters.cpp">
+      <Filter>PluginProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="$(ConfigurationBuildDir)\obj$(PlatformArchitecture)\$(ProjectName)\DerivedSources\AuthenticationManagerMessageReceiver.cpp">
+      <Filter>Derived Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="$(ConfigurationBuildDir)\obj$(PlatformArchitecture)\$(ProjectName)\DerivedSources\CustomProtocolManagerMessageReceiver.cpp">
+      <Filter>Derived Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="$(ConfigurationBuildDir)\obj$(PlatformArchitecture)\$(ProjectName)\DerivedSources\CustomProtocolManagerProxyMessageReceiver.cpp">
+      <Filter>Derived Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="$(ConfigurationBuildDir)\obj$(PlatformArchitecture)\$(ProjectName)\DerivedSources\DatabaseProcessMessageReceiver.cpp">
+      <Filter>Derived Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="$(ConfigurationBuildDir)\obj$(PlatformArchitecture)\$(ProjectName)\DerivedSources\DatabaseProcessProxyMessageReceiver.cpp">
+      <Filter>Derived Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="$(ConfigurationBuildDir)\obj$(PlatformArchitecture)\$(ProjectName)\DerivedSources\DatabaseToWebProcessConnectionMessageReceiver.cpp">
+      <Filter>Derived Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="$(ConfigurationBuildDir)\obj$(PlatformArchitecture)\$(ProjectName)\DerivedSources\DownloadProxyMessageReceiver.cpp">
+      <Filter>Derived Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="$(ConfigurationBuildDir)\obj$(PlatformArchitecture)\$(ProjectName)\DerivedSources\DrawingAreaMessageReceiver.cpp">
+      <Filter>Derived Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="$(ConfigurationBuildDir)\obj$(PlatformArchitecture)\$(ProjectName)\DerivedSources\DrawingAreaProxyMessageReceiver.cpp">
+      <Filter>Derived Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="$(ConfigurationBuildDir)\obj$(PlatformArchitecture)\$(ProjectName)\DerivedSources\EventDispatcherMessageReceiver.cpp">
+      <Filter>Derived Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="$(ConfigurationBuildDir)\obj$(PlatformArchitecture)\$(ProjectName)\DerivedSources\NetworkConnectionToWebProcessMessageReceiver.cpp">
+      <Filter>Derived Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="$(ConfigurationBuildDir)\obj$(PlatformArchitecture)\$(ProjectName)\DerivedSources\NetworkProcessConnectionMessageReceiver.cpp">
+      <Filter>Derived Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="$(ConfigurationBuildDir)\obj$(PlatformArchitecture)\$(ProjectName)\DerivedSources\NetworkProcessMessageReceiver.cpp">
+      <Filter>Derived Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="$(ConfigurationBuildDir)\obj$(PlatformArchitecture)\$(ProjectName)\DerivedSources\NetworkProcessProxyMessageReceiver.cpp">
+      <Filter>Derived Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="$(ConfigurationBuildDir)\obj$(PlatformArchitecture)\$(ProjectName)\DerivedSources\NetworkResourceLoaderMessageReceiver.cpp">
+      <Filter>Derived Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="$(ConfigurationBuildDir)\obj$(PlatformArchitecture)\$(ProjectName)\DerivedSources\NPObjectMessageReceiverMessageReceiver.cpp">
+      <Filter>Derived Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="$(ConfigurationBuildDir)\obj$(PlatformArchitecture)\$(ProjectName)\DerivedSources\PluginControllerProxyMessageReceiver.cpp">
+      <Filter>Derived Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="$(ConfigurationBuildDir)\obj$(PlatformArchitecture)\$(ProjectName)\DerivedSources\PluginProcessConnectionManagerMessageReceiver.cpp">
+      <Filter>Derived Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="$(ConfigurationBuildDir)\obj$(PlatformArchitecture)\$(ProjectName)\DerivedSources\PluginProcessConnectionMessageReceiver.cpp">
+      <Filter>Derived Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="$(ConfigurationBuildDir)\obj$(PlatformArchitecture)\$(ProjectName)\DerivedSources\PluginProcessMessageReceiver.cpp">
+      <Filter>Derived Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="$(ConfigurationBuildDir)\obj$(PlatformArchitecture)\$(ProjectName)\DerivedSources\PluginProcessProxyMessageReceiver.cpp">
+      <Filter>Derived Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="$(ConfigurationBuildDir)\obj$(PlatformArchitecture)\$(ProjectName)\DerivedSources\PluginProxyMessageReceiver.cpp">
+      <Filter>Derived Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="$(ConfigurationBuildDir)\obj$(PlatformArchitecture)\$(ProjectName)\DerivedSources\StorageAreaMapMessageReceiver.cpp">
+      <Filter>Derived Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="$(ConfigurationBuildDir)\obj$(PlatformArchitecture)\$(ProjectName)\DerivedSources\StorageManagerMessageReceiver.cpp">
+      <Filter>Derived Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="$(ConfigurationBuildDir)\obj$(PlatformArchitecture)\$(ProjectName)\DerivedSources\WebApplicationCacheManagerMessageReceiver.cpp">
+      <Filter>Derived Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="$(ConfigurationBuildDir)\obj$(PlatformArchitecture)\$(ProjectName)\DerivedSources\WebApplicationCacheManagerProxyMessageReceiver.cpp">
+      <Filter>Derived Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="$(ConfigurationBuildDir)\obj$(PlatformArchitecture)\$(ProjectName)\DerivedSources\WebConnectionMessageReceiver.cpp">
+      <Filter>Derived Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="$(ConfigurationBuildDir)\obj$(PlatformArchitecture)\$(ProjectName)\DerivedSources\WebContextMessageReceiver.cpp">
+      <Filter>Derived Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="$(ConfigurationBuildDir)\obj$(PlatformArchitecture)\$(ProjectName)\DerivedSources\WebCookieManagerMessageReceiver.cpp">
+      <Filter>Derived Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="$(ConfigurationBuildDir)\obj$(PlatformArchitecture)\$(ProjectName)\DerivedSources\WebCookieManagerProxyMessageReceiver.cpp">
+      <Filter>Derived Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="$(ConfigurationBuildDir)\obj$(PlatformArchitecture)\$(ProjectName)\DerivedSources\WebDatabaseManagerMessageReceiver.cpp">
+      <Filter>Derived Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="$(ConfigurationBuildDir)\obj$(PlatformArchitecture)\$(ProjectName)\DerivedSources\WebDatabaseManagerProxyMessageReceiver.cpp">
+      <Filter>Derived Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="$(ConfigurationBuildDir)\obj$(PlatformArchitecture)\$(ProjectName)\DerivedSources\WebFullScreenManagerMessageReceiver.cpp">
+      <Filter>Derived Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="$(ConfigurationBuildDir)\obj$(PlatformArchitecture)\$(ProjectName)\DerivedSources\WebFullScreenManagerProxyMessageReceiver.cpp">
+      <Filter>Derived Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="$(ConfigurationBuildDir)\obj$(PlatformArchitecture)\$(ProjectName)\DerivedSources\WebGeolocationManagerMessageReceiver.cpp">
+      <Filter>Derived Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="$(ConfigurationBuildDir)\obj$(PlatformArchitecture)\$(ProjectName)\DerivedSources\WebGeolocationManagerProxyMessageReceiver.cpp">
+      <Filter>Derived Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="$(ConfigurationBuildDir)\obj$(PlatformArchitecture)\$(ProjectName)\DerivedSources\WebIconDatabaseMessageReceiver.cpp">
+      <Filter>Derived Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="$(ConfigurationBuildDir)\obj$(PlatformArchitecture)\$(ProjectName)\DerivedSources\WebIconDatabaseProxyMessageReceiver.cpp">
+      <Filter>Derived Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="$(ConfigurationBuildDir)\obj$(PlatformArchitecture)\$(ProjectName)\DerivedSources\WebInspectorMessageReceiver.cpp">
+      <Filter>Derived Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="$(ConfigurationBuildDir)\obj$(PlatformArchitecture)\$(ProjectName)\DerivedSources\WebInspectorProxyMessageReceiver.cpp">
+      <Filter>Derived Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="$(ConfigurationBuildDir)\obj$(PlatformArchitecture)\$(ProjectName)\DerivedSources\WebMediaCacheManagerMessageReceiver.cpp">
+      <Filter>Derived Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="$(ConfigurationBuildDir)\obj$(PlatformArchitecture)\$(ProjectName)\DerivedSources\WebMediaCacheManagerProxyMessageReceiver.cpp">
+      <Filter>Derived Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="$(ConfigurationBuildDir)\obj$(PlatformArchitecture)\$(ProjectName)\DerivedSources\WebNotificationManagerMessageReceiver.cpp">
+      <Filter>Derived Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="$(ConfigurationBuildDir)\obj$(PlatformArchitecture)\$(ProjectName)\DerivedSources\WebOriginDataManagerMessageReceiver.cpp">
+      <Filter>Derived Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="$(ConfigurationBuildDir)\obj$(PlatformArchitecture)\$(ProjectName)\DerivedSources\WebOriginDataManagerProxyMessageReceiver.cpp">
+      <Filter>Derived Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="$(ConfigurationBuildDir)\obj$(PlatformArchitecture)\$(ProjectName)\DerivedSources\WebPageGroupProxyMessageReceiver.cpp">
+      <Filter>Derived Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="$(ConfigurationBuildDir)\obj$(PlatformArchitecture)\$(ProjectName)\DerivedSources\WebPageMessageReceiver.cpp">
+      <Filter>Derived Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="$(ConfigurationBuildDir)\obj$(PlatformArchitecture)\$(ProjectName)\DerivedSources\WebPageProxyMessageReceiver.cpp">
+      <Filter>Derived Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="$(ConfigurationBuildDir)\obj$(PlatformArchitecture)\$(ProjectName)\DerivedSources\WebProcessConnectionMessageReceiver.cpp">
+      <Filter>Derived Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="$(ConfigurationBuildDir)\obj$(PlatformArchitecture)\$(ProjectName)\DerivedSources\WebProcessMessageReceiver.cpp">
+      <Filter>Derived Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="$(ConfigurationBuildDir)\obj$(PlatformArchitecture)\$(ProjectName)\DerivedSources\WebProcessProxyMessageReceiver.cpp">
+      <Filter>Derived Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="$(ConfigurationBuildDir)\obj$(PlatformArchitecture)\$(ProjectName)\DerivedSources\WebResourceCacheManagerMessageReceiver.cpp">
+      <Filter>Derived Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="$(ConfigurationBuildDir)\obj$(PlatformArchitecture)\$(ProjectName)\DerivedSources\WebResourceCacheManagerProxyMessageReceiver.cpp">
+      <Filter>Derived Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="$(ConfigurationBuildDir)\obj$(PlatformArchitecture)\$(ProjectName)\DerivedSources\WebResourceLoaderMessageReceiver.cpp">
+      <Filter>Derived Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\cairo\BackingStoreCairo.cpp">
+      <Filter>UIProcess\cairo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WebProcess\WebPage\CoordinatedGraphics\CoordinatedDrawingArea.cpp">
+      <Filter>WebProcess\WebPage\CoordinatedGraphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WebProcess\WebPage\CoordinatedGraphics\CoordinatedLayerTreeHost.cpp">
+      <Filter>WebProcess\WebPage\CoordinatedGraphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WebProcess\WebPage\CoordinatedGraphics\WebPageCoordinatedGraphics.cpp">
+      <Filter>WebProcess\WebPage\CoordinatedGraphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\CoordinatedGraphics\CoordinatedDrawingAreaProxy.cpp">
+      <Filter>UIProcess\CoordinatedGraphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\CoordinatedGraphics\CoordinatedLayerTreeHostProxy.cpp">
+      <Filter>UIProcess\CoordinatedGraphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\CoordinatedGraphics\WebPageProxyCoordinatedGraphics.cpp">
+      <Filter>UIProcess\CoordinatedGraphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\CoordinatedGraphics\WebView.cpp">
+      <Filter>UIProcess\CoordinatedGraphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\CoordinatedGraphics\WebViewClient.cpp">
+      <Filter>UIProcess\CoordinatedGraphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\CoordinatedGraphics\CoordinatedGraphicsArgumentCoders.cpp">
+      <Filter>Shared\CoordinatedGraphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\CoordinatedGraphics\WebCoordinatedSurface.cpp">
+      <Filter>Shared\CoordinatedGraphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\API\C\CoordinatedGraphics\WKView.cpp">
+      <Filter>UIProcess\API\C\CoordinatedGraphics</Filter>
+    </ClCompile>
+    <ClCompile Include="$(ConfigurationBuildDir)\obj$(PlatformArchitecture)\$(ProjectName)\DerivedSources\CoordinatedLayerTreeHostMessageReceiver.cpp">
+      <Filter>Derived Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="$(ConfigurationBuildDir)\obj$(PlatformArchitecture)\$(ProjectName)\DerivedSources\CoordinatedLayerTreeHostProxyMessageReceiver.cpp">
+      <Filter>Derived Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\DefaultUndoController.cpp">
+      <Filter>UIProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\InspectorServer\HTTPRequest.cpp">
+      <Filter>UIProcess\InspectorServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\InspectorServer\WebInspectorServer.cpp">
+      <Filter>UIProcess\InspectorServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\InspectorServer\WebSocketServer.cpp">
+      <Filter>UIProcess\InspectorServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\InspectorServer\WebSocketServerConnection.cpp">
+      <Filter>UIProcess\InspectorServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NetworkProcess\AsynchronousNetworkLoaderClient.cpp">
+      <Filter>NetworkProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NetworkProcess\HostRecord.cpp">
+      <Filter>NetworkProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NetworkProcess\NetworkConnectionToWebProcess.cpp">
+      <Filter>NetworkProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NetworkProcess\NetworkProcess.cpp">
+      <Filter>NetworkProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NetworkProcess\NetworkProcessPlatformStrategies.cpp">
+      <Filter>NetworkProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NetworkProcess\NetworkResourceLoader.cpp">
+      <Filter>NetworkProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NetworkProcess\NetworkResourceLoadScheduler.cpp">
+      <Filter>NetworkProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NetworkProcess\SynchronousNetworkLoaderClient.cpp">
+      <Filter>NetworkProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NetworkProcess\FileAPI\NetworkBlobRegistry.cpp">
+      <Filter>NetworkProcess\FileAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\Network\NetworkProcessProxy.cpp">
+      <Filter>UIProcess\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WebProcess\Network\NetworkProcessConnection.cpp">
+      <Filter>WebProcess\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WebProcess\Network\WebResourceLoader.cpp">
+      <Filter>WebProcess\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WebProcess\Network\WebResourceLoadScheduler.cpp">
+      <Filter>WebProcess\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WebProcess\FileAPI\BlobRegistryProxy.cpp">
+      <Filter>WebProcess\FileAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Platform\IPC\ArgumentCoders.cpp">
+      <Filter>Platform\IPC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Platform\IPC\ArgumentDecoder.cpp">
+      <Filter>Platform\IPC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Platform\IPC\ArgumentEncoder.cpp">
+      <Filter>Platform\IPC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Platform\IPC\Attachment.cpp">
+      <Filter>Platform\IPC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Platform\IPC\Connection.cpp">
+      <Filter>Platform\IPC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Platform\IPC\DataReference.cpp">
+      <Filter>Platform\IPC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Platform\IPC\MessageDecoder.cpp">
+      <Filter>Platform\IPC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Platform\IPC\MessageEncoder.cpp">
+      <Filter>Platform\IPC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Platform\IPC\MessageReceiverMap.cpp">
+      <Filter>Platform\IPC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Platform\IPC\MessageSender.cpp">
+      <Filter>Platform\IPC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Platform\IPC\StringReference.cpp">
+      <Filter>Platform\IPC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\APIArray.cpp">
+      <Filter>Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\ActivityAssertion.cpp">
+      <Filter>Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\APIPageHandle.cpp">
+      <Filter>Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\APIData.cpp">
+      <Filter>Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\APIError.cpp">
+      <Filter>Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\APIFrameHandle.cpp">
+      <Filter>Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\APIGeometry.cpp">
+      <Filter>Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\APIURLResponse.cpp">
+      <Filter>Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\APIURLRequest.cpp">
+      <Filter>Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\ContextMenuContextData.cpp">
+      <Filter>Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\ConnectionStack.cpp">
+      <Filter>Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\CacheModel.cpp">
+      <Filter>Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\NavigationActionData.cpp">
+      <Filter>Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\UserData.cpp">
+      <Filter>Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\SessionTracker.cpp">
+      <Filter>Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\ShareableResource.cpp">
+      <Filter>Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\WebBatteryStatus.cpp">
+      <Filter>Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\WebKit2Initialize.cpp">
+      <Filter>Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\WebMemorySampler.cpp">
+      <Filter>Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\WebResourceBuffer.cpp">
+      <Filter>Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\API\c\WKDeprecatedFunctions.cpp">
+      <Filter>Shared\API</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\API\c\WKPluginInformation.cpp">
+      <Filter>Shared\API</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\APISession.cpp">
+      <Filter>UIProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\APINavigationData.cpp">
+      <Filter>UIProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\FrameLoadState.cpp">
+      <Filter>UIProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\PageLoadState.cpp">
+      <Filter>UIProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\WebBatteryManagerProxy.cpp">
+      <Filter>UIProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\API\C\WKNavigationDataRef.cpp">
+      <Filter>UIProcess\API\C</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\API\C\WKViewportAttributes.cpp">
+      <Filter>UIProcess\API\C</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\API\C\WKVibration.cpp">
+      <Filter>UIProcess\API\C</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\API\CoordinatedGraphics\WKCoordinatedScene.cpp">
+      <Filter>UIProcess\API\CoordinatedGraphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WebProcess\Battery\WebBatteryManager.cpp">
+      <Filter>WebProcess\Battery</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WebProcess\WebCoreSupport\WebProgressTrackerClient.cpp">
+      <Filter>WebProcess\WebCoreSupport</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WebProcess\WebPage\WebDocumentLoader.cpp">
+      <Filter>WebProcess\WebPage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WebProcess\WebPage\TapHighlightController.cpp">
+      <Filter>WebProcess\WebPage</Filter>
+    </ClCompile>
+    <ClCompile Include="$(ConfigurationBuildDir)\obj$(PlatformArchitecture)\$(ProjectName)\DerivedSources\DatabaseProcessIDBConnectionMessageReceiver.cpp">
+      <Filter>Derived Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="$(ConfigurationBuildDir)\obj$(PlatformArchitecture)\$(ProjectName)\DerivedSources\WebIDBServerConnectionMessageReceiver.cpp">
+      <Filter>Derived Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WebProcess\Databases\IndexedDB\WebIDBServerConnection.cpp">
+      <Filter>WebProcess\Databases\IndexedDB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\curl\WebCoreArgumentCodersCurl.cpp">
+      <Filter>Shared\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WebProcess\WebPage\VisitedLinkTableController.cpp">
+      <Filter>WebProcess\WebPage</Filter>
+    </ClCompile>
+    <ClCompile Include="$(ConfigurationBuildDir)\obj$(PlatformArchitecture)\$(ProjectName)\DerivedSources\VisitedLinkTableControllerMessageReceiver.cpp">
+      <Filter>Derived Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="$(ConfigurationBuildDir)\obj$(PlatformArchitecture)\$(ProjectName)\DerivedSources\VisitedLinkProviderMessageReceiver.cpp">
+      <Filter>Derived Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\API\C\WKBackForwardListItemRef.cpp">
+      <Filter>UIProcess\API\C</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\API\C\WKBackForwardListRef.cpp">
+      <Filter>UIProcess\API\C</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WebProcess\WebPage\PageOverlayController.cpp">
+      <Filter>WebProcess\WebPage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WebProcess\WebCoreSupport\curl\WebFrameNetworkingContext.cpp">
+      <Filter>WebProcess\WebCoreSupport\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Platform\IPC\win\ConnectionWin.cpp">
+      <Filter>Platform\IPC\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\Launcher\win\ProcessLauncherWin.cpp">
+      <Filter>UIProcess\Launcher\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Platform\win\LoggingWin.cpp">
+      <Filter>Platform\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Platform\win\ModuleWin.cpp">
+      <Filter>Platform\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Platform\win\SharedMemoryWin.cpp">
+      <Filter>Platform\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Platform\win\WorkQueueWin.cpp">
+      <Filter>Platform\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\win\WebContextWin.cpp">
+      <Filter>UIProcess\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\win\WebInspectorProxyWin.cpp">
+      <Filter>UIProcess\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\win\WebPageProxyWin.cpp">
+      <Filter>UIProcess\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\win\WebPreferencesWin.cpp">
+      <Filter>UIProcess\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\win\WebProcessProxyWin.cpp">
+      <Filter>UIProcess\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WebProcess\WebCoreSupport\win\WebContextMenuClientWin.cpp">
+      <Filter>WebProcess\WebCoreSupport\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WebProcess\WebCoreSupport\win\WebErrorsWin.cpp">
+      <Filter>WebProcess\WebCoreSupport\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WebProcess\WebCoreSupport\win\WebPopupMenuWin.cpp">
+      <Filter>WebProcess\WebCoreSupport\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\LayerTreeContext.cpp">
+      <Filter>Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\VisibleContentRectUpdateInfo.cpp">
+      <Filter>Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\Downloads\curl\DownloadCurl.cpp">
+      <Filter>Shared\Downloads\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WebProcess\InjectedBundle\win\InjectedBundleWin.cpp">
+      <Filter>WebProcess\InjectedBundle\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WebProcess\Plugins\Netscape\win\NetscapePluginWin.cpp">
+      <Filter>WebProcess\Plugins\Netscape\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\Plugins\Netscape\win\NetscapePluginModuleWin.cpp">
+      <Filter>Shared\Plugins\Netscape\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PluginProcess\PluginControllerProxy.cpp">
+      <Filter>PluginProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PluginProcess\PluginProcess.cpp">
+      <Filter>PluginProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PluginProcess\WebProcessConnection.cpp">
+      <Filter>PluginProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\win\TextCheckerWin.cpp">
+      <Filter>UIProcess\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PluginProcess\win\PluginProcessWin.cpp">
+      <Filter>PluginProcess\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PluginProcess\win\PluginProcessMainWin.cpp">
+      <Filter>PluginProcess\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PluginProcess\win\PluginControllerProxyWin.cpp">
+      <Filter>PluginProcess\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WebProcess\WebPage\win\WebInspectorWin.cpp">
+      <Filter>WebProcess\WebPage\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WebProcess\WebPage\win\WebPageWin.cpp">
+      <Filter>WebProcess\WebPage\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\Plugins\win\PluginProcessProxyWin.cpp">
+      <Filter>UIProcess\Plugins\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\Plugins\win\PluginInfoStoreWin.cpp">
+      <Filter>UIProcess\Plugins\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WebProcess\win\WebProcessMainWin.cpp">
+      <Filter>WebProcess\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WebProcess\win\WebProcessWin.cpp">
+      <Filter>WebProcess\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WebProcess\Plugins\Netscape\win\PluginProxyWin.cpp">
+      <Filter>WebProcess\Plugins\Netscape\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\win\WebKitDLL.cpp">
+      <Filter>win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\API\C\win\WKViewWin.cpp">
+      <Filter>UIProcess\API\C\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\win\WebViewWin.cpp">
+      <Filter>UIProcess\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\Launcher\win\WSASocketPair.cpp">
+      <Filter>UIProcess\Launcher\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\win\ProcessExecutablePathWin.cpp">
+      <Filter>Shared\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Platform\IPC\win\CompletionPort.cpp">
+      <Filter>Platform\IPC\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\API\c\win\WKStringWin.cpp">
+      <Filter>Shared\API\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\API\C\WKBatteryManager.cpp">
+      <Filter>UIProcess\API\C</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\API\C\WKBatteryStatus.cpp">
+      <Filter>UIProcess\API\C</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\API\C\WKOriginDataManager.cpp">
+      <Filter>UIProcess\API\C</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\API\C\WKSessionRef.cpp">
+      <Filter>UIProcess\API\C</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\APIContextConfiguration.cpp">
+      <Filter>UIProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\API\C\WKContextConfigurationRef.cpp">
+      <Filter>UIProcess\API\C</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\win\NativeWebMouseEventWin.cpp">
+      <Filter>Shared\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\win\WebEventFactory.cpp">
+      <Filter>Shared\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\win\NativeWebWheelEventWin.cpp">
+      <Filter>Shared\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\WebPreferencesKeys.cpp">
+      <Filter>Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\UserContent\WebScriptMessageHandler.cpp">
+      <Filter>UIProcess\UserContent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\UserContent\WebUserContentControllerProxy.cpp">
+      <Filter>UIProcess\UserContent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WebProcess\UserContent\WebUserContentController.cpp">
+      <Filter>WebProcess\UserContent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\WebKitBuild\Debug_WinCairo\obj32\WebKit2\DerivedSources\WebUserContentControllerMessageReceiver.cpp">
+      <Filter>Derived Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\WebKitBuild\Debug_WinCairo\obj32\WebKit2\DerivedSources\WebUserContentControllerProxyMessageReceiver.cpp">
+      <Filter>Derived Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\API\c\WKErrorRef.cpp">
+      <Filter>Shared\API</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\API\APISessionState.cpp">
+      <Filter>UIProcess\API</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\ProcessAssertion.cpp">
+      <Filter>UIProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\ProcessThrottler.cpp">
+      <Filter>UIProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WebProcess\WebCoreSupport\SessionStateConversion.cpp">
+      <Filter>WebProcess\WebCoreSupport</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UIProcess\LegacySessionStateCodingNone.cpp">
+      <Filter>UIProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Platform\IPC\win\NonblockIoHandle.cpp">
+      <Filter>Platform\IPC\win</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Shared\WebConnection.messages.in">
+      <Filter>Shared</Filter>
+    </None>
+    <None Include="..\WebProcess\WebProcess.messages.in">
+      <Filter>WebProcess</Filter>
+    </None>
+    <None Include="..\WebProcess\ApplicationCache\WebApplicationCacheManager.messages.in">
+      <Filter>WebProcess\ApplicationCache</Filter>
+    </None>
+    <None Include="..\WebProcess\Geolocation\WebGeolocationManager.messages.in">
+      <Filter>WebProcess\Geolocation</Filter>
+    </None>
+    <None Include="..\WebProcess\IconDatabase\WebIconDatabaseProxy.messages.in">
+      <Filter>WebProcess\IconDatabase</Filter>
+    </None>
+    <None Include="..\WebProcess\MediaCache\WebMediaCacheManager.messages.in">
+      <Filter>WebProcess\MediaCache</Filter>
+    </None>
+    <None Include="..\WebProcess\ResourceCache\WebResourceCacheManager.messages.in">
+      <Filter>WebProcess\ResourceCache</Filter>
+    </None>
+    <None Include="..\WebProcess\Cookies\WebCookieManager.messages.in">
+      <Filter>WebProcess\Cookies</Filter>
+    </None>
+    <None Include="..\WebProcess\WebCoreSupport\WebDatabaseManager.messages.in">
+      <Filter>WebProcess\WebCoreSupport</Filter>
+    </None>
+    <None Include="..\WebProcess\WebPage\DrawingArea.messages.in">
+      <Filter>WebProcess\WebPage</Filter>
+    </None>
+    <None Include="..\WebProcess\WebPage\WebInspector.messages.in">
+      <Filter>WebProcess\WebPage</Filter>
+    </None>
+    <None Include="..\WebProcess\WebPage\WebPage.messages.in">
+      <Filter>WebProcess\WebPage</Filter>
+    </None>
+    <None Include="..\WebProcess\WebPage\WebPageGroupProxy.messages.in">
+      <Filter>WebProcess\WebPage</Filter>
+    </None>
+    <None Include="..\WebProcess\Notifications\WebNotificationManager.messages.in">
+      <Filter>WebProcess\Notifications %28User%29</Filter>
+    </None>
+    <None Include="..\UIProcess\DrawingAreaProxy.messages.in">
+      <Filter>UIProcess</Filter>
+    </None>
+    <None Include="..\UIProcess\WebApplicationCacheManagerProxy.messages.in">
+      <Filter>UIProcess</Filter>
+    </None>
+    <None Include="..\UIProcess\WebContext.messages.in">
+      <Filter>UIProcess</Filter>
+    </None>
+    <None Include="..\UIProcess\WebCookieManagerProxy.messages.in">
+      <Filter>UIProcess</Filter>
+    </None>
+    <None Include="..\UIProcess\WebDatabaseManagerProxy.messages.in">
+      <Filter>UIProcess</Filter>
+    </None>
+    <None Include="..\UIProcess\WebGeolocationManagerProxy.messages.in">
+      <Filter>UIProcess</Filter>
+    </None>
+    <None Include="..\UIProcess\WebIconDatabase.messages.in">
+      <Filter>UIProcess</Filter>
+    </None>
+    <None Include="..\UIProcess\WebMediaCacheManagerProxy.messages.in">
+      <Filter>UIProcess</Filter>
+    </None>
+    <None Include="..\UIProcess\WebPageProxy.messages.in">
+      <Filter>UIProcess</Filter>
+    </None>
+    <None Include="..\UIProcess\WebProcessProxy.messages.in">
+      <Filter>UIProcess</Filter>
+    </None>
+    <None Include="..\UIProcess\WebResourceCacheManagerProxy.messages.in">
+      <Filter>UIProcess</Filter>
+    </None>
+    <None Include="..\UIProcess\Downloads\DownloadProxy.messages.in">
+      <Filter>UIProcess\Downloads</Filter>
+    </None>
+    <None Include="..\UIProcess\Notifications\WebNotificationManagerProxy.messages.in">
+      <Filter>UIProcess\Notifications %28User%29</Filter>
+    </None>
+    <None Include="..\Shared\Network\CustomProtocols\CustomProtocolManager.messages.in">
+      <Filter>Shared\Network\CustomProtocols</Filter>
+    </None>
+    <None Include="..\Shared\Authentication\AuthenticationManager.messages.in">
+      <Filter>Shared\Authentication</Filter>
+    </None>
+    <None Include="..\WebProcess\Storage\StorageAreaMap.messages.in">
+      <Filter>WebProcess\Storage</Filter>
+    </None>
+    <None Include="..\UIProcess\WebOriginDataManagerProxy.messages.in">
+      <Filter>UIProcess</Filter>
+    </None>
+    <None Include="..\WebProcess\OriginData\WebOriginDataManager.messages.in">
+      <Filter>WebProcess\OriginData</Filter>
+    </None>
+    <None Include="..\Shared\Plugins\NPObjectMessageReceiver.messages.in">
+      <Filter>Shared\Plugins</Filter>
+    </None>
+    <None Include="..\UIProcess\CoordinatedGraphics\CoordinatedLayerTreeHostProxy.messages.in">
+      <Filter>UIProcess\CoordinatedGraphics</Filter>
+    </None>
+    <None Include="..\WebProcess\WebPage\CoordinatedGraphics\CoordinatedLayerTreeHost.messages.in">
+      <Filter>WebProcess\WebPage\CoordinatedGraphics</Filter>
+    </None>
+    <None Include="..\NetworkProcess\NetworkConnectionToWebProcess.messages.in">
+      <Filter>NetworkProcess</Filter>
+    </None>
+    <None Include="..\NetworkProcess\NetworkProcess.messages.in">
+      <Filter>NetworkProcess</Filter>
+    </None>
+    <None Include="..\NetworkProcess\NetworkResourceLoader.messages.in">
+      <Filter>NetworkProcess</Filter>
+    </None>
+    <None Include="..\UIProcess\Network\NetworkProcessProxy.messages.in">
+      <Filter>UIProcess\Network</Filter>
+    </None>
+    <None Include="..\WebProcess\Network\NetworkProcessConnection.messages.in">
+      <Filter>WebProcess\Network</Filter>
+    </None>
+    <None Include="..\WebProcess\Network\WebResourceLoader.messages.in">
+      <Filter>WebProcess\Network</Filter>
+    </None>
+    <None Include="..\UIProcess\WebBatteryManagerProxy.messages.in">
+      <Filter>UIProcess</Filter>
+    </None>
+    <None Include="..\WebProcess\Battery\WebBatteryManager.messages.in">
+      <Filter>WebProcess\Battery</Filter>
+    </None>
+    <None Include="..\WebProcess\Databases\IndexedDB\WebIDBServerConnection.messages.in">
+      <Filter>WebProcess\Databases\IndexedDB</Filter>
+    </None>
+    <None Include="..\PluginProcess\PluginControllerProxy.messages.in">
+      <Filter>PluginProcess</Filter>
+    </None>
+    <None Include="..\PluginProcess\PluginProcess.messages.in">
+      <Filter>PluginProcess</Filter>
+    </None>
+    <None Include="..\PluginProcess\WebProcessConnection.messages.in">
+      <Filter>PluginProcess</Filter>
+    </None>
+    <None Include="..\UIProcess\UserContent\WebUserContentControllerProxy.messages.in">
+      <Filter>UIProcess\UserContent</Filter>
+    </None>
+    <None Include="..\WebProcess\UserContent\WebUserContentController.messages.in">
+      <Filter>WebProcess\UserContent</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\..\WebKit\win\WebKit.resources\WebKit.rc" />
+  </ItemGroup>
+</Project>

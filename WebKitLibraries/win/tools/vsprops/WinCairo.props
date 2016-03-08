@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(WebKit_Libraries)\include\cairo;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN_CAIRO=1;WTF_PLATFORM_WIN_CAIRO=1;ENABLE_3D_RENDERING=1;ENABLE_GLES2=1;ENABLE_EGL=1;COMPONENT_BUILD;WTF_USE_3D_GRAPHICS=1;WTF_USE_OPENGL=1;WTF_USE_OPENGL_ES_2=1;WTF_USE_EGL=1;WTF_USE_ACCELERATED_COMPOSITING=1;WTF_USE_TEXTURE_MAPPER=1;WTF_USE_TEXTURE_MAPPER_GL=1;WTF_USE_TILED_BACKING_STORE=1;WTF_USE_COORDINATED_GRAPHICS=1;WTF_USE_GRAPHICS_SURFACE=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>cairo.lib;libjpeg.lib;zdll.lib;libpng.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(WebKit_Libraries)\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+</Project>
